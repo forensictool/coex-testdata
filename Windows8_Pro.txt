@@ -1,0 +1,19 @@
+in Windows 8:
+C:\\Windows\AppCompat\Programs\AEINV_CURRENT.xml
+C:\Windows\WindowsUpdate.log
+
+In files from C:\Windows\Inf\ you can find:
+";    INF file for installing the integration components on Windows 8."
+ 
+C:\Windows\SoftwareDistribution\ReportingEvents.log
+
+Very interesting folder: C:\Windows\System32\DriverStore\FileRepository\
+many found string "Windows 8"
+
+
+C:\Windows\System32\Licenses\neutral\_Default\Professional\license.rtf
+
+"\pard\nowidctlpar\sb120\sa200\tx540\b\f1\fs20 MICROSOFT SOFTWARE LICENSE AGREEMENT\par
+\pard\brdrb\brdrs\brdrw10\brsp20 \nowidctlpar\sb120\sa200\tx540 WINDOWS 8 PRO\b0\f0\fs24\par"
+
+C:\Windows\System32\spp\tokens\skus\Professional\

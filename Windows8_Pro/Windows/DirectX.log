@@ -1,0 +1,363 @@
+07/09/13 16:25:20: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\d3dx9_24_x64.inf [DefaultInstall]
+07/09/13 16:25:20: infinst: Installed file C:\Windows\system32\d3dx9_24.dll
+07/09/13 16:25:20: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\d3dx9_25_x64.inf [DefaultInstall]
+07/09/13 16:25:20: infinst: Installed file C:\Windows\system32\d3dx9_25.dll
+07/09/13 16:25:20: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\d3dx9_26_x64.inf [DefaultInstall]
+07/09/13 16:25:20: infinst: Installed file C:\Windows\system32\d3dx9_26.dll
+07/09/13 16:25:21: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\d3dx9_27_x64.inf [DefaultInstall]
+07/09/13 16:25:21: infinst: Installed file C:\Windows\system32\d3dx9_27.dll
+07/09/13 16:25:21: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\d3dx9_28_x64.inf [DefaultInstall]
+07/09/13 16:25:21: infinst: Installed file C:\Windows\system32\d3dx9_28.dll
+07/09/13 16:25:21: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\d3dx9_29_x64.inf [DefaultInstall]
+07/09/13 16:25:21: infinst: Installed file C:\Windows\system32\d3dx9_29.dll
+07/09/13 16:25:22: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\XACT_x64.inf [DefaultInstall]
+07/09/13 16:25:22: infinst: Installed file C:\Windows\system32\xactengine2_0.dll
+07/09/13 16:25:22: infinst: Installed file C:\Windows\system32\x3daudio1_0.dll
+07/09/13 16:25:22: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\d3dx9_30_x64.inf [DefaultInstall]
+07/09/13 16:25:22: infinst: Installed file C:\Windows\system32\d3dx9_30.dll
+07/09/13 16:25:24: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\XACT2_1_x64.inf [DefaultInstall]
+07/09/13 16:25:24: infinst: Installed file C:\Windows\system32\xactengine2_1.dll
+07/09/13 16:25:24: infinst: Target file: 'C:\Windows\system32\x3daudio1_0.dll' 
+	Target file is Version 9.11.519.0
+	Source file is Version 9.11.519.0
+07/09/13 16:25:24: infinst: C:\Windows\system32\x3daudio1_0.dll have been installed already.
+07/09/13 16:25:25: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\xinput1_1_x64.inf [Install_Driver]
+07/09/13 16:25:25: infinst: Installed file C:\Windows\system32\xinput1_1.dll
+07/09/13 16:25:25: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\XACT2_2_x64.inf [DefaultInstall]
+07/09/13 16:25:25: infinst: Installed file C:\Windows\system32\xactengine2_2.dll
+07/09/13 16:25:25: infinst: Target file: 'C:\Windows\system32\x3daudio1_0.dll' 
+	Target file is Version 9.11.519.0
+	Source file is Version 9.11.519.0
+07/09/13 16:25:25: infinst: C:\Windows\system32\x3daudio1_0.dll have been installed already.
+07/09/13 16:25:25: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\xinput1_2_x64.inf [Install_Driver]
+07/09/13 16:25:25: infinst: Installed file C:\Windows\system32\xinput1_2.dll
+07/09/13 16:25:26: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\XACT2_3_x64.inf [DefaultInstall]
+07/09/13 16:25:26: infinst: Installed file C:\Windows\system32\xactengine2_3.dll
+07/09/13 16:25:26: infinst: Target file: 'C:\Windows\system32\x3daudio1_0.dll' 
+	Target file is Version 9.11.519.0
+	Source file is Version 9.11.519.0
+07/09/13 16:25:26: infinst: C:\Windows\system32\x3daudio1_0.dll have been installed already.
+07/09/13 16:25:26: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\d3dx9_31_x64.inf [DefaultInstall]
+07/09/13 16:25:26: infinst: Installed file C:\Windows\system32\d3dx9_31.dll
+07/09/13 16:25:26: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\XACT2_4_x64.inf [DefaultInstall]
+07/09/13 16:25:26: infinst: Installed file C:\Windows\system32\xactengine2_4.dll
+07/09/13 16:25:26: infinst: Installed file C:\Windows\system32\x3daudio1_1.dll
+07/09/13 16:25:27: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\d3dx9_32_x64.inf [DefaultInstall]
+07/09/13 16:25:27: infinst: Installed file C:\Windows\system32\d3dx9_32.dll
+07/09/13 16:25:27: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\d3dx10_00_x64.inf [DefaultInstall]
+07/09/13 16:25:27: infinst: Installed file C:\Windows\system32\d3dx10.dll
+07/09/13 16:25:27: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\XACT2_5_x64.inf [DefaultInstall]
+07/09/13 16:25:27: infinst: Installed file C:\Windows\system32\xactengine2_5.dll
+07/09/13 16:25:27: infinst: Target file: 'C:\Windows\system32\x3daudio1_1.dll' 
+	Target file is Version 9.15.779.0
+	Source file is Version 9.15.779.0
+07/09/13 16:25:27: infinst: Installed file C:\Windows\system32\x3daudio1_1.dll
+07/09/13 16:25:28: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\XACT2_6_x64.inf [DefaultInstall]
+07/09/13 16:25:28: infinst: Installed file C:\Windows\system32\xactengine2_6.dll
+07/09/13 16:25:28: infinst: Target file: 'C:\Windows\system32\x3daudio1_1.dll' 
+	Target file is Version 9.15.779.0
+	Source file is Version 9.15.779.0
+07/09/13 16:25:28: infinst: Installed file C:\Windows\system32\x3daudio1_1.dll
+07/09/13 16:25:28: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\d3dx9_33_x64.inf [DefaultInstall]
+07/09/13 16:25:28: infinst: Installed file C:\Windows\system32\d3dx9_33.dll
+07/09/13 16:25:28: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\d3dx10_33_x64.inf [DefaultInstall]
+07/09/13 16:25:28: infinst: Installed file C:\Windows\system32\d3dx10_33.dll
+07/09/13 16:25:28: infinst: Installed file C:\Windows\system32\D3DCompiler_33.dll
+07/09/13 16:25:29: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\XACT2_7_x64.inf [DefaultInstall]
+07/09/13 16:25:29: infinst: Installed file C:\Windows\system32\xactengine2_7.dll
+07/09/13 16:25:29: infinst: Target file: 'C:\Windows\system32\x3daudio1_1.dll' 
+	Target file is Version 9.15.779.0
+	Source file is Version 9.15.779.0
+07/09/13 16:25:29: infinst: Installed file C:\Windows\system32\x3daudio1_1.dll
+07/09/13 16:25:29: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\xinput1_3_x64.inf [Install_Driver]
+07/09/13 16:25:29: infinst: Installed file C:\Windows\system32\xinput1_3.dll
+07/09/13 16:25:29: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\d3dx9_34_x64.inf [DefaultInstall]
+07/09/13 16:25:29: infinst: Installed file C:\Windows\system32\d3dx9_34.dll
+07/09/13 16:25:30: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\d3dx10_34_x64.inf [DefaultInstall]
+07/09/13 16:25:30: infinst: Installed file C:\Windows\system32\d3dx10_34.dll
+07/09/13 16:25:30: infinst: Installed file C:\Windows\system32\D3DCompiler_34.dll
+07/09/13 16:25:30: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\XACT2_8_x64.inf [DefaultInstall]
+07/09/13 16:25:30: infinst: Installed file C:\Windows\system32\xactengine2_8.dll
+07/09/13 16:25:30: infinst: Installed file C:\Windows\system32\x3daudio1_2.dll
+07/09/13 16:25:30: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\d3dx9_35_x64.inf [DefaultInstall]
+07/09/13 16:25:30: infinst: Installed file C:\Windows\system32\d3dx9_35.dll
+07/09/13 16:25:31: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\d3dx10_35_x64.inf [DefaultInstall]
+07/09/13 16:25:31: infinst: Installed file C:\Windows\system32\d3dx10_35.dll
+07/09/13 16:25:31: infinst: Installed file C:\Windows\system32\D3DCompiler_35.dll
+07/09/13 16:25:31: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\XACT2_9_x64.inf [DefaultInstall]
+07/09/13 16:25:31: infinst: Installed file C:\Windows\system32\xactengine2_9.dll
+07/09/13 16:25:31: infinst: Target file: 'C:\Windows\system32\x3daudio1_2.dll' 
+	Target file is Version 9.19.1007.0
+	Source file is Version 9.20.1057.0
+07/09/13 16:25:31: infinst: Installed file C:\Windows\system32\x3daudio1_2.dll
+07/09/13 16:25:32: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\d3dx9_36_x64.inf [DefaultInstall]
+07/09/13 16:25:32: infinst: Installed file C:\Windows\system32\d3dx9_36.dll
+07/09/13 16:25:32: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\d3dx10_36_x64.inf [DefaultInstall]
+07/09/13 16:25:32: infinst: Installed file C:\Windows\system32\d3dx10_36.dll
+07/09/13 16:25:32: infinst: Installed file C:\Windows\system32\D3DCompiler_36.dll
+07/09/13 16:25:32: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\X3DAudio1_2_x64.inf [DefaultInstall]
+07/09/13 16:25:32: infinst: Target file: 'C:\Windows\system32\X3DAudio1_2.dll' 
+	Target file is Version 9.20.1057.0
+	Source file is Version 9.21.1148.0
+07/09/13 16:25:32: infinst: Installed file C:\Windows\system32\X3DAudio1_2.dll
+07/09/13 16:25:32: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\XACT2_10_x64.inf [DefaultInstall]
+07/09/13 16:25:32: infinst: Installed file C:\Windows\system32\xactengine2_10.dll
+07/09/13 16:25:33: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\D3DX9_37_x64.inf [DefaultInstall]
+07/09/13 16:25:33: infinst: Installed file C:\Windows\system32\D3DX9_37.dll
+07/09/13 16:25:33: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\d3dx10_37_x64.inf [DefaultInstall]
+07/09/13 16:25:33: infinst: Installed file C:\Windows\system32\d3dx10_37.dll
+07/09/13 16:25:33: infinst: Installed file C:\Windows\system32\D3DCompiler_37.dll
+07/09/13 16:25:33: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\X3DAudio1_3_x64.inf [DefaultInstall]
+07/09/13 16:25:33: infinst: Installed file C:\Windows\system32\X3DAudio1_3.dll
+07/09/13 16:25:33: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\XACT3_0_x64.inf [DefaultInstall]
+07/09/13 16:25:33: infinst: Installed file C:\Windows\system32\xactengine3_0.dll
+07/09/13 16:25:34: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXE61E.tmp\XAudio2_0_x64.inf [DefaultInstall]
+07/09/13 16:25:34: infinst: Installed file C:\Windows\system32\XAudio2_0.dll
+07/12/13 16:47:58: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\d3dx9_24_x64.inf [DefaultInstall]
+07/12/13 16:47:58: infinst: Target file: 'C:\Windows\system32\d3dx9_24.dll' 
+	Target file is Version 9.5.132.0
+	Source file is Version 9.5.132.0
+07/12/13 16:47:58: infinst: C:\Windows\system32\d3dx9_24.dll have been installed already.
+07/12/13 16:47:58: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\d3dx9_25_x64.inf [DefaultInstall]
+07/12/13 16:47:59: infinst: Target file: 'C:\Windows\system32\d3dx9_25.dll' 
+	Target file is Version 9.6.168.0
+	Source file is Version 9.6.168.0
+07/12/13 16:47:59: infinst: C:\Windows\system32\d3dx9_25.dll have been installed already.
+07/12/13 16:47:59: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\d3dx9_26_x64.inf [DefaultInstall]
+07/12/13 16:47:59: infinst: Target file: 'C:\Windows\system32\d3dx9_26.dll' 
+	Target file is Version 9.7.239.0
+	Source file is Version 9.7.239.0
+07/12/13 16:47:59: infinst: C:\Windows\system32\d3dx9_26.dll have been installed already.
+07/12/13 16:47:59: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\d3dx9_27_x64.inf [DefaultInstall]
+07/12/13 16:47:59: infinst: Target file: 'C:\Windows\system32\d3dx9_27.dll' 
+	Target file is Version 9.8.299.0
+	Source file is Version 9.8.299.0
+07/12/13 16:47:59: infinst: C:\Windows\system32\d3dx9_27.dll have been installed already.
+07/12/13 16:48:00: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\d3dx9_28_x64.inf [DefaultInstall]
+07/12/13 16:48:00: infinst: Target file: 'C:\Windows\system32\d3dx9_28.dll' 
+	Target file is Version 9.10.455.0
+	Source file is Version 9.10.455.0
+07/12/13 16:48:00: infinst: C:\Windows\system32\d3dx9_28.dll have been installed already.
+07/12/13 16:48:00: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\d3dx9_29_x64.inf [DefaultInstall]
+07/12/13 16:48:00: infinst: Target file: 'C:\Windows\system32\d3dx9_29.dll' 
+	Target file is Version 9.11.519.0
+	Source file is Version 9.11.519.0
+07/12/13 16:48:00: infinst: C:\Windows\system32\d3dx9_29.dll have been installed already.
+07/12/13 16:48:01: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\XACT_x64.inf [DefaultInstall]
+07/12/13 16:48:01: infinst: Target file: 'C:\Windows\system32\xactengine2_0.dll' 
+	Target file is Version 9.11.519.0
+	Source file is Version 9.11.519.0
+07/12/13 16:48:01: infinst: C:\Windows\system32\xactengine2_0.dll have been installed already.
+07/12/13 16:48:01: infinst: Target file: 'C:\Windows\system32\x3daudio1_0.dll' 
+	Target file is Version 9.11.519.0
+	Source file is Version 9.11.519.0
+07/12/13 16:48:01: infinst: C:\Windows\system32\x3daudio1_0.dll have been installed already.
+07/12/13 16:48:01: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\d3dx9_30_x64.inf [DefaultInstall]
+07/12/13 16:48:01: infinst: Target file: 'C:\Windows\system32\d3dx9_30.dll' 
+	Target file is Version 9.12.589.0
+	Source file is Version 9.12.589.0
+07/12/13 16:48:01: infinst: C:\Windows\system32\d3dx9_30.dll have been installed already.
+07/12/13 16:48:05: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\XACT2_1_x64.inf [DefaultInstall]
+07/12/13 16:48:05: infinst: Target file: 'C:\Windows\system32\xactengine2_1.dll' 
+	Target file is Version 9.12.589.0
+	Source file is Version 9.12.589.0
+07/12/13 16:48:05: infinst: C:\Windows\system32\xactengine2_1.dll have been installed already.
+07/12/13 16:48:05: infinst: Target file: 'C:\Windows\system32\x3daudio1_0.dll' 
+	Target file is Version 9.11.519.0
+	Source file is Version 9.11.519.0
+07/12/13 16:48:05: infinst: C:\Windows\system32\x3daudio1_0.dll have been installed already.
+07/12/13 16:48:05: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\xinput1_1_x64.inf [Install_Driver]
+07/12/13 16:48:05: infinst: Target file: 'C:\Windows\system32\xinput1_1.dll' 
+	Target file is Version 9.12.589.0
+	Source file is Version 9.12.589.0
+07/12/13 16:48:05: infinst: C:\Windows\system32\xinput1_1.dll have been installed already.
+07/12/13 16:48:05: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\XACT2_2_x64.inf [DefaultInstall]
+07/12/13 16:48:05: infinst: Target file: 'C:\Windows\system32\xactengine2_2.dll' 
+	Target file is Version 9.13.644.0
+	Source file is Version 9.13.644.0
+07/12/13 16:48:05: infinst: C:\Windows\system32\xactengine2_2.dll have been installed already.
+07/12/13 16:48:05: infinst: Target file: 'C:\Windows\system32\x3daudio1_0.dll' 
+	Target file is Version 9.11.519.0
+	Source file is Version 9.11.519.0
+07/12/13 16:48:05: infinst: C:\Windows\system32\x3daudio1_0.dll have been installed already.
+07/12/13 16:48:06: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\xinput1_2_x64.inf [Install_Driver]
+07/12/13 16:48:06: infinst: Target file: 'C:\Windows\system32\xinput1_2.dll' 
+	Target file is Version 9.14.701.0
+	Source file is Version 9.14.701.0
+07/12/13 16:48:06: infinst: C:\Windows\system32\xinput1_2.dll have been installed already.
+07/12/13 16:48:06: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\XACT2_3_x64.inf [DefaultInstall]
+07/12/13 16:48:06: infinst: Target file: 'C:\Windows\system32\xactengine2_3.dll' 
+	Target file is Version 9.14.701.0
+	Source file is Version 9.14.701.0
+07/12/13 16:48:06: infinst: C:\Windows\system32\xactengine2_3.dll have been installed already.
+07/12/13 16:48:06: infinst: Target file: 'C:\Windows\system32\x3daudio1_0.dll' 
+	Target file is Version 9.11.519.0
+	Source file is Version 9.11.519.0
+07/12/13 16:48:06: infinst: C:\Windows\system32\x3daudio1_0.dll have been installed already.
+07/12/13 16:48:06: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\d3dx9_31_x64.inf [DefaultInstall]
+07/12/13 16:48:06: infinst: Target file: 'C:\Windows\system32\d3dx9_31.dll' 
+	Target file is Version 9.15.779.0
+	Source file is Version 9.15.779.0
+07/12/13 16:48:06: infinst: C:\Windows\system32\d3dx9_31.dll have been installed already.
+07/12/13 16:48:07: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\XACT2_4_x64.inf [DefaultInstall]
+07/12/13 16:48:07: infinst: Target file: 'C:\Windows\system32\xactengine2_4.dll' 
+	Target file is Version 9.15.779.0
+	Source file is Version 9.15.779.0
+07/12/13 16:48:07: infinst: C:\Windows\system32\xactengine2_4.dll have been installed already.
+07/12/13 16:48:07: infinst: Target file: 'C:\Windows\system32\x3daudio1_1.dll' 
+	Target file is Version 9.15.779.0
+	Source file is Version 9.15.779.0
+07/12/13 16:48:07: infinst: Currently C:\Windows\system32\x3daudio1_1.dll is newer than the one being installed.
+07/12/13 16:48:07: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\d3dx9_32_x64.inf [DefaultInstall]
+07/12/13 16:48:07: infinst: Target file: 'C:\Windows\system32\d3dx9_32.dll' 
+	Target file is Version 9.16.843.0
+	Source file is Version 9.16.843.0
+07/12/13 16:48:07: infinst: C:\Windows\system32\d3dx9_32.dll have been installed already.
+07/12/13 16:48:07: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\d3dx10_00_x64.inf [DefaultInstall]
+07/12/13 16:48:07: infinst: Target file: 'C:\Windows\system32\d3dx10.dll' 
+	Target file is Version 9.16.843.0
+	Source file is Version 9.16.843.0
+07/12/13 16:48:07: infinst: C:\Windows\system32\d3dx10.dll have been installed already.
+07/12/13 16:48:08: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\XACT2_5_x64.inf [DefaultInstall]
+07/12/13 16:48:08: infinst: Target file: 'C:\Windows\system32\xactengine2_5.dll' 
+	Target file is Version 9.16.857.0
+	Source file is Version 9.16.857.0
+07/12/13 16:48:08: infinst: C:\Windows\system32\xactengine2_5.dll have been installed already.
+07/12/13 16:48:08: infinst: Target file: 'C:\Windows\system32\x3daudio1_1.dll' 
+	Target file is Version 9.15.779.0
+	Source file is Version 9.15.779.0
+07/12/13 16:48:08: infinst: Currently C:\Windows\system32\x3daudio1_1.dll is newer than the one being installed.
+07/12/13 16:48:08: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\XACT2_6_x64.inf [DefaultInstall]
+07/12/13 16:48:08: infinst: Target file: 'C:\Windows\system32\xactengine2_6.dll' 
+	Target file is Version 9.17.892.0
+	Source file is Version 9.17.892.0
+07/12/13 16:48:08: infinst: C:\Windows\system32\xactengine2_6.dll have been installed already.
+07/12/13 16:48:08: infinst: Target file: 'C:\Windows\system32\x3daudio1_1.dll' 
+	Target file is Version 9.15.779.0
+	Source file is Version 9.15.779.0
+07/12/13 16:48:08: infinst: Currently C:\Windows\system32\x3daudio1_1.dll is newer than the one being installed.
+07/12/13 16:48:08: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\d3dx9_33_x64.inf [DefaultInstall]
+07/12/13 16:48:09: infinst: Target file: 'C:\Windows\system32\d3dx9_33.dll' 
+	Target file is Version 9.18.904.15
+	Source file is Version 9.18.904.15
+07/12/13 16:48:09: infinst: C:\Windows\system32\d3dx9_33.dll have been installed already.
+07/12/13 16:48:09: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\d3dx10_33_x64.inf [DefaultInstall]
+07/12/13 16:48:09: infinst: Target file: 'C:\Windows\system32\d3dx10_33.dll' 
+	Target file is Version 9.18.904.21
+	Source file is Version 9.18.904.21
+07/12/13 16:48:09: infinst: C:\Windows\system32\d3dx10_33.dll have been installed already.
+07/12/13 16:48:09: infinst: Target file: 'C:\Windows\system32\D3DCompiler_33.dll' 
+	Target file is Version 9.18.904.15
+	Source file is Version 9.18.904.15
+07/12/13 16:48:09: infinst: C:\Windows\system32\D3DCompiler_33.dll have been installed already.
+07/12/13 16:48:09: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\XACT2_7_x64.inf [DefaultInstall]
+07/12/13 16:48:09: infinst: Target file: 'C:\Windows\system32\xactengine2_7.dll' 
+	Target file is Version 9.18.944.0
+	Source file is Version 9.18.944.0
+07/12/13 16:48:09: infinst: C:\Windows\system32\xactengine2_7.dll have been installed already.
+07/12/13 16:48:09: infinst: Target file: 'C:\Windows\system32\x3daudio1_1.dll' 
+	Target file is Version 9.15.779.0
+	Source file is Version 9.15.779.0
+07/12/13 16:48:09: infinst: C:\Windows\system32\x3daudio1_1.dll have been installed already.
+07/12/13 16:48:10: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\xinput1_3_x64.inf [Install_Driver]
+07/12/13 16:48:10: infinst: Target file: 'C:\Windows\system32\xinput1_3.dll' 
+	Target file is Version 9.18.944.0
+	Source file is Version 9.18.944.0
+07/12/13 16:48:10: infinst: C:\Windows\system32\xinput1_3.dll have been installed already.
+07/12/13 16:48:10: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\d3dx9_34_x64.inf [DefaultInstall]
+07/12/13 16:48:10: infinst: Target file: 'C:\Windows\system32\d3dx9_34.dll' 
+	Target file is Version 9.19.949.46
+	Source file is Version 9.19.949.46
+07/12/13 16:48:10: infinst: C:\Windows\system32\d3dx9_34.dll have been installed already.
+07/12/13 16:48:10: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\d3dx10_34_x64.inf [DefaultInstall]
+07/12/13 16:48:10: infinst: Target file: 'C:\Windows\system32\d3dx10_34.dll' 
+	Target file is Version 9.19.949.46
+	Source file is Version 9.19.949.46
+07/12/13 16:48:10: infinst: C:\Windows\system32\d3dx10_34.dll have been installed already.
+07/12/13 16:48:11: infinst: Target file: 'C:\Windows\system32\D3DCompiler_34.dll' 
+	Target file is Version 9.19.949.46
+	Source file is Version 9.19.949.46
+07/12/13 16:48:11: infinst: C:\Windows\system32\D3DCompiler_34.dll have been installed already.
+07/12/13 16:48:11: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\XACT2_8_x64.inf [DefaultInstall]
+07/12/13 16:48:11: infinst: Target file: 'C:\Windows\system32\xactengine2_8.dll' 
+	Target file is Version 9.19.1007.0
+	Source file is Version 9.19.1007.0
+07/12/13 16:48:11: infinst: C:\Windows\system32\xactengine2_8.dll have been installed already.
+07/12/13 16:48:11: infinst: Target file: 'C:\Windows\system32\x3daudio1_2.dll' 
+	Target file is Version 9.21.1148.0
+	Source file is Version 9.19.1007.0
+07/12/13 16:48:11: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\d3dx9_35_x64.inf [DefaultInstall]
+07/12/13 16:48:11: infinst: Target file: 'C:\Windows\system32\d3dx9_35.dll' 
+	Target file is Version 9.19.949.1104
+	Source file is Version 9.19.949.1104
+07/12/13 16:48:11: infinst: C:\Windows\system32\d3dx9_35.dll have been installed already.
+07/12/13 16:48:12: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\d3dx10_35_x64.inf [DefaultInstall]
+07/12/13 16:48:12: infinst: Target file: 'C:\Windows\system32\d3dx10_35.dll' 
+	Target file is Version 9.19.949.1104
+	Source file is Version 9.19.949.1104
+07/12/13 16:48:12: infinst: C:\Windows\system32\d3dx10_35.dll have been installed already.
+07/12/13 16:48:12: infinst: Target file: 'C:\Windows\system32\D3DCompiler_35.dll' 
+	Target file is Version 9.19.949.1104
+	Source file is Version 9.19.949.1104
+07/12/13 16:48:12: infinst: C:\Windows\system32\D3DCompiler_35.dll have been installed already.
+07/12/13 16:48:12: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\XACT2_9_x64.inf [DefaultInstall]
+07/12/13 16:48:12: infinst: Target file: 'C:\Windows\system32\xactengine2_9.dll' 
+	Target file is Version 9.20.1057.0
+	Source file is Version 9.20.1057.0
+07/12/13 16:48:12: infinst: C:\Windows\system32\xactengine2_9.dll have been installed already.
+07/12/13 16:48:12: infinst: Target file: 'C:\Windows\system32\x3daudio1_2.dll' 
+	Target file is Version 9.21.1148.0
+	Source file is Version 9.20.1057.0
+07/12/13 16:48:13: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\d3dx9_36_x64.inf [DefaultInstall]
+07/12/13 16:48:13: infinst: Target file: 'C:\Windows\system32\d3dx9_36.dll' 
+	Target file is Version 9.19.949.2111
+	Source file is Version 9.19.949.2111
+07/12/13 16:48:13: infinst: C:\Windows\system32\d3dx9_36.dll have been installed already.
+07/12/13 16:48:13: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\d3dx10_36_x64.inf [DefaultInstall]
+07/12/13 16:48:13: infinst: Target file: 'C:\Windows\system32\d3dx10_36.dll' 
+	Target file is Version 9.19.949.2009
+	Source file is Version 9.19.949.2009
+07/12/13 16:48:13: infinst: C:\Windows\system32\d3dx10_36.dll have been installed already.
+07/12/13 16:48:13: infinst: Target file: 'C:\Windows\system32\D3DCompiler_36.dll' 
+	Target file is Version 9.19.949.2111
+	Source file is Version 9.19.949.2111
+07/12/13 16:48:13: infinst: C:\Windows\system32\D3DCompiler_36.dll have been installed already.
+07/12/13 16:48:13: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\X3DAudio1_2_x64.inf [DefaultInstall]
+07/12/13 16:48:13: infinst: Target file: 'C:\Windows\system32\X3DAudio1_2.dll' 
+	Target file is Version 9.21.1148.0
+	Source file is Version 9.21.1148.0
+07/12/13 16:48:13: infinst: C:\Windows\system32\X3DAudio1_2.dll have been installed already.
+07/12/13 16:48:14: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\XACT2_10_x64.inf [DefaultInstall]
+07/12/13 16:48:14: infinst: Target file: 'C:\Windows\system32\xactengine2_10.dll' 
+	Target file is Version 9.21.1148.0
+	Source file is Version 9.21.1148.0
+07/12/13 16:48:14: infinst: C:\Windows\system32\xactengine2_10.dll have been installed already.
+07/12/13 16:48:14: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\D3DX9_37_x64.inf [DefaultInstall]
+07/12/13 16:48:14: infinst: Target file: 'C:\Windows\system32\D3DX9_37.dll' 
+	Target file is Version 9.22.949.2248
+	Source file is Version 9.22.949.2248
+07/12/13 16:48:14: infinst: C:\Windows\system32\D3DX9_37.dll have been installed already.
+07/12/13 16:48:14: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\d3dx10_37_x64.inf [DefaultInstall]
+07/12/13 16:48:15: infinst: Target file: 'C:\Windows\system32\d3dx10_37.dll' 
+	Target file is Version 9.19.949.2185
+	Source file is Version 9.19.949.2185
+07/12/13 16:48:15: infinst: C:\Windows\system32\d3dx10_37.dll have been installed already.
+07/12/13 16:48:15: infinst: Target file: 'C:\Windows\system32\D3DCompiler_37.dll' 
+	Target file is Version 9.22.949.2248
+	Source file is Version 9.22.949.2248
+07/12/13 16:48:15: infinst: C:\Windows\system32\D3DCompiler_37.dll have been installed already.
+07/12/13 16:48:15: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\X3DAudio1_3_x64.inf [DefaultInstall]
+07/12/13 16:48:15: infinst: Target file: 'C:\Windows\system32\X3DAudio1_3.dll' 
+	Target file is Version 9.22.1284.0
+	Source file is Version 9.22.1284.0
+07/12/13 16:48:15: infinst: C:\Windows\system32\X3DAudio1_3.dll have been installed already.
+07/12/13 16:48:15: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\XACT3_0_x64.inf [DefaultInstall]
+07/12/13 16:48:15: infinst: Target file: 'C:\Windows\system32\xactengine3_0.dll' 
+	Target file is Version 9.22.1284.0
+	Source file is Version 9.22.1284.0
+07/12/13 16:48:15: infinst: C:\Windows\system32\xactengine3_0.dll have been installed already.
+07/12/13 16:48:15: infinst: Installing C:\Users\Evgenii\AppData\Local\Temp\DXA5A3.tmp\XAudio2_0_x64.inf [DefaultInstall]
+07/12/13 16:48:15: infinst: Target file: 'C:\Windows\system32\XAudio2_0.dll' 
+	Target file is Version 9.22.1284.0
+	Source file is Version 9.22.1284.0
+07/12/13 16:48:15: infinst: C:\Windows\system32\XAudio2_0.dll have been installed already.
