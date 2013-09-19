@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<account version='1.0'>
+	<account>
+		<protocol>prpl-jabber</protocol>
+		<name>fox.user.3@gmail.com/laptop</name>
+		<password> nhnqvuztpwkgpmab </password>
+		<statuses>
+			<status type='available' name='Доступен' active='false'>
+				<attributes/>
+			</status>
+			<status type='mood' name='Чувство' active='false'>
+				<attributes/>
+			</status>
+			<status type='freeforchat' name='Готов пообщаться' active='false'>
+				<attributes/>
+			</status>
+			<status type='away' name='Отошёл' active='true'>
+				<attributes>
+					<attribute id='message' value='Прямо сейчас меня здесь нет'/>
+				</attributes>
+			</status>
+			<status type='extended_away' name='Расширенный &quot;Отошёл&quot;' active='false'>
+				<attributes/>
+			</status>
+			<status type='dnd' name='Не беспокоить' active='false'>
+				<attributes/>
+			</status>
+			<status type='offline' name='Не в сети' active='false'>
+				<attributes/>
+			</status>
+		</statuses>
+		<userinfo>&lt;vCard xmlns=&apos;vcard-temp&apos;&gt;&lt;FN&gt;Игорь Поляков&lt;/FN&gt;&lt;URL&gt;https://plus.google.com/107606099157181636285&lt;/URL&gt;&lt;PHOTO&gt;&lt;TYPE&gt;image/jpeg&lt;/TYPE&gt;&lt;BINVAL&gt;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&lt;/BINVAL&gt;&lt;/PHOTO&gt;&lt;/vCard&gt;</userinfo>
+		<settings>
+			<setting name='bosh_url' type='string'></setting>
+			<setting name='auth_plain_in_clear' type='bool'>0</setting>
+			<setting name='custom_smileys' type='bool'>1</setting>
+			<setting name='port' type='int'>5222</setting>
+			<setting name='connect_server' type='string'>talk.google.com</setting>
+			<setting name='ft_proxies' type='string'>proxy.eu.jabber.org</setting>
+			<setting name='check-mail' type='bool'>0</setting>
+			<setting name='connection_security' type='string'>require_tls</setting>
+			<setting name='use-global-buddyicon' type='bool'>1</setting>
+		</settings>
+		<settings ui='gtk-gaim'>
+			<setting name='auto-login' type='bool'>1</setting>
+		</settings>
+		<current_error/>
+	</account>
+</account>

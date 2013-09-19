@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<purple version='1.0'>
+	<blist>
+		<group name='Собеседники'>
+			<setting name='collapsed' type='bool'>0</setting>
+			<contact>
+				<buddy account='fox.user.3@gmail.com/laptop' proto='prpl-jabber'>
+					<name>rm.gooogle@gmail.com</name>
+					<alias>Игорь Кретов</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='fox.user.3@gmail.com/laptop' proto='prpl-jabber'>
+					<name>slender383@gmail.com</name>
+					<alias>Илья Довженко</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='fox.user.3@gmail.com/laptop' proto='prpl-jabber'>
+					<name>pashahendra@gmail.com</name>
+					<alias>Павел Нестеренко</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='fox.user.3@gmail.com/laptop' proto='prpl-jabber'>
+					<name>artys.239@gmail.com</name>
+					<alias>Артур Чистяков</alias>
+					<setting name='last_seen' type='int'>1376193177</setting>
+					<setting name='buddy_icon' type='string'>05a768d58610f2c25bbe8ca03fbed907456b15b3.jpg</setting>
+					<setting name='icon_checksum' type='string'>05a768d58610f2c25bbe8ca03fbed907456b15b3</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='fox.user.3@gmail.com/laptop' proto='prpl-jabber'>
+					<name>viktor.grenke@gmail.com</name>
+					<alias>Виктор Гренке</alias>
+					<setting name='last_seen' type='int'>1376194863</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='fox.user.3@gmail.com/laptop' proto='prpl-jabber'>
+					<name>0e4ub7bzd7f831csppg4vwzoc3@public.talk.google.com</name>
+					<alias>Мария Календарева</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='fox.user.3@gmail.com/laptop' proto='prpl-jabber'>
+					<name>1f8nfufrlxxsl3rshsdvj2ko5j@public.talk.google.com</name>
+					<alias>Роман Черепанов</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='fox.user.3@gmail.com/laptop' proto='prpl-jabber'>
+					<name>mrseakg@gmail.com</name>
+					<alias>Mrseakg Sea</alias>
+					<setting name='last_seen' type='int'>1376194863</setting>
+					<setting name='buddy_icon' type='string'>3fe1b34c563768ca78956c094d3378418ca1532f.png</setting>
+					<setting name='icon_checksum' type='string'>3fe1b34c563768ca78956c094d3378418ca1532f</setting>
+				</buddy>
+			</contact>
+		</group>
+	</blist>
+	<privacy>
+		<account proto='prpl-jabber' name='fox.user.3@gmail.com/laptop' mode='1'/>
+	</privacy>
+</purple>
