@@ -1,0 +1,26 @@
+$MOD51
+jmp start
+
+
+start:
+mov A, P0
+mov  $1, 51H
+mov  $2, 52H
+mov  $3, 53H
+mov  $4, 54H
+mov  $5, 55H
+mov  $6, 56H
+mov  $7, 57H
+mov  $8, 58H
+mov  $9, 59H                  
+IMUL 51H, ah
+IMUL 52H, ah
+IMUL 53H, ah
+IMUL 54H, ah
+IMUL 55H, ah
+IMUL 56H, ah
+IMUL 57H, ah
+IMUL 58H, ah
+IMUL 59H, ah
+
+END start

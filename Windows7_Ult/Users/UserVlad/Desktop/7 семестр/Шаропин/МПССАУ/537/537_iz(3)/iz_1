@@ -1,0 +1,40 @@
+D_seg segment
+N dw ?
+message db 13,10,' Vvedite chislo $'
+entr db 13,10,'Resultat $'
+D_seg ends
+C_seg segment
+assume cs:c_seg, ds:d_seg
+org 100h
+_BEG: mov ax, d_seg
+
+ASSUME CS:C_seg
+ORG 100H
+INPUT PROC
+MOV AH,01H
+INT 21H
+RET
+INPUT ENDP
+
+
+BEGIN:
+movl  $1, 51H
+movl  $2, 52H
+movl  $3, 53H
+movl  $4, 54H
+movl  $5, 55H
+movl  $6, 56H
+movl  $7, 57H
+movl  $8, 58H
+movl  $9, 59H                  
+IMUL 51H, ah
+IMUL 52H, ah
+IMUL 53H, ah
+IMUL 54H, ah
+IMUL 55H, ah
+IMUL 56H, ah
+IMUL 57H, ah
+IMUL 58H, ah
+IMUL 59H, ah
+C_seg ENDS
+END BEGIN

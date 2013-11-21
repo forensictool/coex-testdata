@@ -1,0 +1,1487 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<searchresults total_results="12">
+                    <addon id="1865">
+  <name>Adblock Plus</name>
+  <type id="1">Расширение</type>
+  <guid>{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}</guid>
+  <slug>adblock-plus</slug>
+  <version>2.4</version>
+  <status id="4">Полностью проверен</status>
+  <authors>
+        <author id="346">
+      <name>Wladimir Palant</name>
+      <link>https://addons.mozilla.org/ru/firefox/user/Wladimir-Palant/?src=api</link>
+    </author>      </authors>
+  <summary>Надоела реклама? Тормозит интернет? Слишком много баннеров? Установи Adblock Plus, чтобы вернуть себе контроль над интернетом и видеть лишь то, что хочется.</summary>
+  <description>Adblock Plus даст вам вернуть себе контроль над интернетом и видеть его таким, как хочется вам. Для расширения существует более сорока списков фильтров для десятков языков, которые автоматически настроят его для различных целей, от блокировки рекламы до блокировки всех известных опасных доменов. Adblock Plus также позволит вам добавлять собственные фильтры с помощью различных полезных инструментов, включая контекстное меню для блокировки картинок, ярлык для блокировки Flash-роликов и Java-апплетов и список элементов для удаления невидимых элементов (к примеру, скриптов или стилей).
+
+Начиная с Adblock Plus 2.0 появилась возможность разрешить в настройках фильтров некоторую ненавязчивую рекламу. Таким образом можно поддержать страницы, которые не навязывают рекламу посетителям. Мы надеемся, что в результате больше страниц станет использовать ненавязчивую рекламу. &lt;a href=&#34;http://outgoing.mozilla.org/v1/3589a9e94f3dafecf8b4527d96d2926cbfa85605/http%3A//adblockplus.org/ru/acceptable-ads&#34; rel=&#34;nofollow&#34;&gt;Дополнительная информация&lt;/a&gt;</description><license>
+    <name>GNU General Public License, версия 3.0</name>
+    <url>http://www.gnu.org/licenses/gpl-3.0.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/1/1865-64.png?modified=1372070145</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/1/1865-32.png?modified=1372070145</icon>
+  <compatible_applications><application>
+      <name>Thunderbird</name>
+      <application_id>18</application_id>
+      <min_version>16.0</min_version>
+      <max_version>27.0</max_version>
+      <appID>{3550f703-e582-4d05-9a08-453d09bdfdc6}</appID>
+    </application><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>16.0</min_version>
+      <max_version>27.0</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application><application>
+      <name>SeaMonkey</name>
+      <application_id>59</application_id>
+      <min_version>2.13</min_version>
+      <max_version>2.24</max_version>
+      <appID>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</appID>
+    </application><application>
+      <name>Firefox для Android</name>
+      <application_id>61</application_id>
+      <min_version>16.0</min_version>
+      <max_version>27.0</max_version>
+      <appID>{aa3c5121-dab2-40e2-81ca-7ea25febc110}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="200" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/55/55574.png?src=api&amp;modified=1327649601
+      </full>
+      <thumbnail type="" width="200" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/55/55574.png?src=api&amp;modified=1327649601
+      </thumbnail></preview><preview position="1">
+      <full type="" width="350" height="280">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/55/55568.png?src=api&amp;modified=1327649601
+      </full>
+      <thumbnail type="" width="187" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/55/55568.png?src=api&amp;modified=1327649601
+      </thumbnail><caption>Toolbar button</caption></preview><preview position="2">
+      <full type="" width="700" height="481">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/55/55569.png?src=api&amp;modified=1327649601
+      </full>
+      <thumbnail type="" width="200" height="137">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/55/55569.png?src=api&amp;modified=1327649601
+      </thumbnail><caption>Issue reporter</caption></preview><preview position="3">
+      <full type="" width="567" height="483">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/55/55570.png?src=api&amp;modified=1327649601
+      </full>
+      <thumbnail type="" width="176" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/55/55570.png?src=api&amp;modified=1327649601
+      </thumbnail><caption>Adding a filter subscription</caption></preview><preview position="4">
+      <full type="" width="450" height="225">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/55/55571.png?src=api&amp;modified=1327649601
+      </full>
+      <thumbnail type="" width="200" height="100">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/55/55571.png?src=api&amp;modified=1327649601
+      </thumbnail><caption>Blocking an image ad</caption></preview><preview position="5">
+      <full type="" width="550" height="277">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/55/55572.png?src=api&amp;modified=1327649601
+      </full>
+      <thumbnail type="" width="200" height="100">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/55/55572.png?src=api&amp;modified=1327649601
+      </thumbnail><caption>List of blockable items</caption></preview><preview position="6">
+      <full type="" width="600" height="400">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/55/55573.png?src=api&amp;modified=1327649601
+      </full>
+      <thumbnail type="" width="200" height="133">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/55/55573.png?src=api&amp;modified=1327649601
+      </thumbnail><caption>Adding a filter</caption></preview></previews><rating>5</rating>
+  <learnmore>https://addons.mozilla.org/ru/firefox/addon/adblock-plus/?src=api</learnmore><install hash="sha256:0f2dd7a2231b3346edbd982beb7023758316fdc628c9f831c0b70fee870f991a"
+    os="ALL"
+    size="915554">https://addons.mozilla.org/firefox/downloads/file/230225/adblock_plus-2.4-tb+fx+an+sm.xpi?src=api</install>
+  <contribution_data>
+      <link>https://addons.mozilla.org/ru/firefox/addon/adblock-plus/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="5.00">
+            5,00 $
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/ru/firefox/addon/adblock-plus/developers?src=api
+      </meet_developers>
+    </contribution_data><developer_comments></developer_comments>
+    <reviews num="3941">
+      https://addons.mozilla.org/ru/firefox/addon/adblock-plus/reviews/?src=api
+    </reviews>
+    <total_downloads>226523160</total_downloads>
+    <weekly_downloads>996507</weekly_downloads>
+    <daily_users>17257230</daily_users>
+    <created epoch="1137511710">
+      2006-01-17T15:28:30Z
+    </created>
+    <last_updated epoch="1381345098">
+      2013-10-09T18:58:18Z
+    </last_updated>
+    <homepage>http://adblockplus.org/</homepage>
+    <support>http://adblockplus.org/forum/</support>
+    <featured>0</featured>
+        <performance>
+            <application name="fx" version="8.0.1">
+                <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="548.47" average="554.32"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6 (rev4)">
+          <result type="ts" baseline="637.58" average="637.26"
+                  above_threshold="false" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="479.26" average="482.58"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="4.0">
+                <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="536.21" average="611.21"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="5.1">
+          <result type="ts" baseline="401.89" average="494.79"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.5.8">
+          <result type="ts" baseline="695.32" average="697.16"
+                  above_threshold="false" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="506.32" average="519.47"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="3.6.15">
+                <platform name="WINNT" version="5.1">
+          <result type="ts" baseline="368.95" average="391.47"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="413.47" average="446.21"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="7.0.1">
+                <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="547.16" average="613.11"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="8.0">
+                <platform name="MacOSX" version="10.6 (rev4)">
+          <result type="ts" baseline="624.84" average="642.0"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="541.58" average="556.53"
+                  above_threshold="false" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="477.95" average="473.84"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2 (rev3)">
+          <result type="ts" baseline="657.21" average="654.05"
+                  above_threshold="false" />
+        </platform></application></performance>
+    </addon>
+
+                  <addon id="2464">
+  <name>FoxyProxy Standard</name>
+  <type id="1">Расширение</type>
+  <guid>foxyproxy@eric.h.jung</guid>
+  <slug>foxyproxy-standard</slug>
+  <version>4.2.3</version>
+  <status id="4">Полностью проверен</status>
+  <authors>
+        <author id="323">
+      <name>Eric H. Jung</name>
+      <link>https://addons.mozilla.org/ru/firefox/user/eric-h-jung/?src=api</link>
+    </author>      </authors>
+  <summary>FoxyProxy is an advanced proxy management tool that completely replaces Firefox&#39;s limited proxying capabilities. For a simpler tool and less advanced configuration options, please use FoxyProxy Basic.</summary>
+  <description>FoxyProxy is a Firefox extension which automatically switches an internet connection across one or more proxy servers based on URL patterns. Put simply, FoxyProxy automates the manual process of editing Firefox&#39;s Connection Settings dialog. Proxy server switching occurs based on the loading URL and the switching rules you define.
+
+Animated icons show you when a proxy is in use. Advanced logging shows you which proxies were used and when. QuickAdd makes it a snap to create new URL patterns on-the-fly. FoxyProxy is fully compatible with Portable Firefox, has better support for PAC files than Firefox itself, and is translated into more than 34 languages.</description><license>
+    <name>GNU General Public License, версия 2.0</name>
+    <url>http://www.gnu.org/licenses/gpl-2.0.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/2/2464-64.png?modified=1377120472</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/2/2464-32.png?modified=1377120472</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.1b3</min_version>
+      <max_version>28.0a1</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application><application>
+      <name>Thunderbird</name>
+      <application_id>18</application_id>
+      <min_version>3.0a1pre</min_version>
+      <max_version>28.0a1</max_version>
+      <appID>{3550f703-e582-4d05-9a08-453d09bdfdc6}</appID>
+    </application><application>
+      <name>SeaMonkey</name>
+      <application_id>59</application_id>
+      <min_version>2.0a</min_version>
+      <max_version>2.24a1</max_version>
+      <appID>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/5/5857.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/5/5857.png?src=api&amp;modified=1331247702
+      </thumbnail></preview><preview position="1">
+      <full type="image/png" width="700" height="458">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/11/11313.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="130">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/11/11313.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Proxies Tab</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="458">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/20/20059.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="130">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/20/20059.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Global Settings</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="458">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/20/20060.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="130">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/20/20060.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>QuickAdd Settings</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="465">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/20/20061.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="133">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/20/20061.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>AutoAdd Settings</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="458">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/20/20062.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="130">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/20/20062.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Logging</caption></preview><preview position="1">
+      <full type="image/png" width="641" height="474">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/20/20063.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="147">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/20/20063.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Proxy Settings - General Info</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="392">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/20/20064.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="112">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/20/20064.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Proxy Settings - Details</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="390">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/20/20065.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="111">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/20/20065.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Proxy Settings - URL Patterns</caption></preview><preview position="1">
+      <full type="image/png" width="503" height="312">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/20/20066.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="124">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/20/20066.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Add/Edit Pattern</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="268">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/20/20067.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="76">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/20/20067.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>QuickAdd Prompt</caption></preview><preview position="1">
+      <full type="image/png" width="418" height="297">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/20/20068.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="142">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/20/20068.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>About Dialog</caption></preview><preview position="1">
+      <full type="image/png" width="566" height="333">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/36/36178.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="117">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/36/36178.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Toolbar icon with drop-down menu</caption></preview><preview position="1">
+      <full type="image/png" width="552" height="400">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/48/48944.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="144">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/48/48944.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Wildcard Reference: help on how to use wildcards</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="350">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/48/48945.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="100">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/48/48945.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Pattern Template Reference: help on how to use pattern templates for QuickAdd and AutoAdd</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/ru/firefox/addon/foxyproxy-standard/?src=api</learnmore><install hash="sha256:edc56ed02fc83d1adced663518ffa746e0d127d9137d1691ac6e95c779a4e122"
+    os="ALL"
+    size="925808">https://addons.mozilla.org/firefox/downloads/file/231879/foxyproxy_standard-4.2.3-fx+tb+sm.xpi?src=api</install>
+  <contribution_data>
+      <link>https://addons.mozilla.org/ru/firefox/addon/foxyproxy-standard/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="9.99">
+            9,99 $
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/ru/firefox/addon/foxyproxy-standard/developers?src=api
+      </meet_developers>
+    </contribution_data><developer_comments>Please report bugs to &lt;a href=&#34;http://outgoing.mozilla.org/v1/2bb2df4925a17d6063fec35ce6f06baef12fc654/http%3A//forums.getfoxyproxy.org&#34; rel=&#34;nofollow&#34;&gt;http://forums.getfoxyproxy.org&lt;/a&gt;</developer_comments>
+    <reviews num="275">
+      https://addons.mozilla.org/ru/firefox/addon/foxyproxy-standard/reviews/?src=api
+    </reviews>
+    <total_downloads>15422510</total_downloads>
+    <weekly_downloads>24545</weekly_downloads>
+    <daily_users>402304</daily_users>
+    <created epoch="1146084054">
+      2006-04-26T20:40:54Z
+    </created>
+    <last_updated epoch="1382768181">
+      2013-10-26T06:16:21Z
+    </last_updated>
+    <homepage>http://getfoxyproxy.org</homepage>
+    <support>http://getfoxyproxy.org/</support>
+    <featured>1</featured>
+        <performance>
+            <application name="fx" version="8.0.1">
+                <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="479.26" average="490.32"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="548.47" average="566.68"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6 (rev4)">
+          <result type="ts" baseline="637.58" average="656.89"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="6.0.2">
+                <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="519.79" average="653.26"
+                  above_threshold="true" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="476.21" average="589.79"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2">
+          <result type="ts" baseline="654.42" average="743.21"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="7.0.1">
+                <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="547.16" average="687.74"
+                  above_threshold="true" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="479.68" average="595.05"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2 (rev3)">
+          <result type="ts" baseline="667.37" average="759.53"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2">
+          <result type="ts" baseline="671.16" average="758.37"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="8.0">
+                <platform name="MacOSX" version="10.6 (rev4)">
+          <result type="ts" baseline="624.84" average="666.21"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="541.58" average="580.58"
+                  above_threshold="false" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="477.95" average="491.37"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2 (rev3)">
+          <result type="ts" baseline="657.21" average="670.95"
+                  above_threshold="false" />
+        </platform></application></performance>
+    </addon>
+
+                  <addon id="3829">
+  <name>Live HTTP Headers</name>
+  <type id="1">Расширение</type>
+  <guid>{8f8fe09b-0bd3-4470-bc1b-8cad42b8203a}</guid>
+  <slug>live-http-headers</slug>
+  <version>0.17</version>
+  <status id="4">Полностью проверен</status>
+  <authors>
+        <author id="227">
+      <name>Daniel Savard</name>
+      <link>https://addons.mozilla.org/ru/firefox/user/daniel-savard/?src=api</link>
+    </author><author id="68175">
+      <name>Nikolas Co</name>
+      <link>https://addons.mozilla.org/ru/firefox/user/nikolasco/?src=api</link>
+    </author>      </authors>
+  <summary>View HTTP headers of a page and while browsing.</summary>
+  <description>View HTTP headers of a page and while browsing.</description><license>
+    <name>GNU General Public License, версия 2.0</name>
+    <url>http://www.gnu.org/licenses/gpl-2.0.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/3/3829-64.png?modified=1352206517</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/3/3829-32.png?modified=1352206517</icon>
+  <compatible_applications><application>
+      <name>SeaMonkey</name>
+      <application_id>59</application_id>
+      <min_version>1.0</min_version>
+      <max_version>2.1.*</max_version>
+      <appID>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</appID>
+    </application><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>0.8</min_version>
+      <max_version>17.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/ru/firefox/addon/live-http-headers/?src=api</learnmore><install hash="sha256:19ac3cc343521f074b70e1143f556d3191515e316277af850b5bed596ca4c9c0"
+    os="ALL"
+    size="117760">https://addons.mozilla.org/firefox/downloads/file/119979/live_http_headers-0.17-fx+sm.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="131">
+      https://addons.mozilla.org/ru/firefox/addon/live-http-headers/reviews/?src=api
+    </reviews>
+    <total_downloads>4226844</total_downloads>
+    <weekly_downloads>7876</weekly_downloads>
+    <daily_users>210265</daily_users>
+    <created epoch="1163120252">
+      2006-11-10T00:57:32Z
+    </created>
+    <last_updated epoch="1305324131">
+      2011-05-13T22:02:11Z
+    </last_updated>
+    <homepage>http://livehttpheaders.mozdev.org/</homepage>
+    <support>http://livehttpheaders.mozdev.org/</support>
+    <featured>0</featured>
+        <performance>
+            <application name="fx" version="8.0.1">
+                <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="479.26" average="474.21"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6 (rev4)">
+          <result type="ts" baseline="637.58" average="633.74"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="548.47" average="548.95"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="4.0.1">
+                <platform name="MacOSX" version="10.5.8">
+          <result type="ts" baseline="687.21" average="692.26"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="5.1">
+          <result type="ts" baseline="409.26" average="404.26"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="5.0">
+                <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="506.0" average="500.89"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="5.1">
+          <result type="ts" baseline="388.11" average="385.0"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.5.8">
+          <result type="ts" baseline="679.89" average="679.89"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="522.0" average="526.63"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="6.0.2">
+                <platform name="MacOSX" version="10.6.2">
+          <result type="ts" baseline="654.42" average="670.95"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="519.79" average="516.89"
+                  above_threshold="false" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="476.21" average="475.63"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="7.0.1">
+                <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="547.16" average="542.53"
+                  above_threshold="false" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="479.68" average="491.26"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2 (rev3)">
+          <result type="ts" baseline="667.37" average="658.58"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2">
+          <result type="ts" baseline="671.16" average="648.21"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="8.0">
+                <platform name="MacOSX" version="10.6 (rev4)">
+          <result type="ts" baseline="624.84" average="642.16"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="541.58" average="561.84"
+                  above_threshold="false" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="477.95" average="483.84"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2 (rev3)">
+          <result type="ts" baseline="657.21" average="659.58"
+                  above_threshold="false" />
+        </platform></application></performance>
+    </addon>
+
+                  <addon id="10345">
+  <name>JavaScript Deobfuscator</name>
+  <type id="1">Расширение</type>
+  <guid>jsdeobfuscator@adblockplus.org</guid>
+  <slug>javascript-deobfuscator</slug>
+  <version>1.6.4</version>
+  <status id="4">Полностью проверен</status>
+  <authors>
+        <author id="346">
+      <name>Wladimir Palant</name>
+      <link>https://addons.mozilla.org/ru/firefox/user/Wladimir-Palant/?src=api</link>
+    </author>      </authors>
+  <summary>Это расширение показывает, какой JavaScript-код выполняет страница, даже если код создается динамически. Просто откройте окно JavaScript Deobfuscator из меню Инструменты и просмотрите список компилируемых/выполняемых скриптов.</summary>
+  <description>Расширение получает код, который оно показывает, напрямую из JavaScript-движка браузера. Каждый скрипт, который JavaScript-движок компилирует или выполняет, добавляется в соответствующий список. Правила внизу окна расширения устанавливают, какие скрипты должны показываться. По умолчанию скрипты самого браузера и расширений исключены, но фильтры можно изменить, чтобы показать и их. JavaScript-движок форматирует код по-своему, что делает его более читабельным. К сожалению, есть и &#34;побочные явления&#34; типа функций, текст которых выдается дважды.
+
+Примечание: При открытом окне JavaScript Deobfuscator все скрипты выполняются значительно медленнее. Открывайте его только тогда, когда оно вам нужно.</description><license>
+    <name>Mozilla Public License, version 2.0</name>
+    <url>https://addons.mozilla.org/ru/firefox/addon/javascript-deobfuscator/license/1.6.4</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/media//img/addon-icons/webdev-64.png</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/media//img/addon-icons/webdev-32.png</icon>
+  <compatible_applications><application>
+      <name>SeaMonkey</name>
+      <application_id>59</application_id>
+      <min_version>2.13</min_version>
+      <max_version>2.23</max_version>
+      <appID>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</appID>
+    </application><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>16.0</min_version>
+      <max_version>26.0</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="675" height="500">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/75/75009.png?src=api&amp;modified=1343751021
+      </full>
+      <thumbnail type="" width="200" height="148">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/75/75009.png?src=api&amp;modified=1343751021
+      </thumbnail><caption>Main window displaying deobfuscated scripts</caption></preview><preview position="1">
+      <full type="" width="484" height="510">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/75/75011.png?src=api&amp;modified=1343751021
+      </full>
+      <thumbnail type="" width="142" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/75/75011.png?src=api&amp;modified=1343751021
+      </thumbnail><caption>Menu item to switch on monitoring</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/ru/firefox/addon/javascript-deobfuscator/?src=api</learnmore><install hash="sha256:099cfb6b651da22edfbb9f53359d8a3947020c44537134b0c260a0122f09787a"
+    os="ALL"
+    size="36781">https://addons.mozilla.org/firefox/downloads/file/223442/javascript_deobfuscator-1.6.4-sm+fx.xpi?src=api</install>
+  <developer_comments>Inspired by &#34;The Ultimate Deobfuscator&#34; (&lt;a href=&#34;http://outgoing.mozilla.org/v1/4a6cc4a605e89f0150c1bdb4c9f6abeeb7dd7193/http%3A//securitylabs.websense.com/content/Blogs/3198.aspx&#34;&gt;http://securitylabs.websense.com/content/Blogs/3198.aspx&lt;/a&gt;)</developer_comments>
+    <reviews num="19">
+      https://addons.mozilla.org/ru/firefox/addon/javascript-deobfuscator/reviews/?src=api
+    </reviews>
+    <total_downloads>827937</total_downloads>
+    <weekly_downloads>3996</weekly_downloads>
+    <daily_users>62625</daily_users>
+    <created epoch="1231769409">
+      2009-01-12T14:10:09Z
+    </created>
+    <last_updated epoch="1376447463">
+      2013-08-14T02:31:03Z
+    </last_updated>
+    <homepage></homepage>
+    <support>http://adblockplus.org/forum/viewforum.php?f=5</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+
+                  <addon id="151188">
+  <name>ВКонтакте.ру Downloader (для музыки, видео и фото)</name>
+  <type id="1">Расширение</type>
+  <guid>vk@sergeykolosov.mp</guid>
+  <slug>vkontakteru-downloader</slug>
+  <version>0.3.6.6</version>
+  <status id="4">Полностью проверен</status>
+  <authors>
+        <author id="2800482">
+      <name>Sergey Kolosov</name>
+      <link>https://addons.mozilla.org/ru/firefox/user/m17russia/?src=api</link>
+    </author>      </authors>
+  <summary>Скачать музыку, видео и фото ВКонтакте. Скачивание в один клик, нормальные имена файлов, отображение размера файлов и битрейта для музыки, скачивание HD видео, скачивание HQ фото. Без спама, без использования вашей учётной записи.</summary>
+  <description>Ура, мы вернулись в интернеты!
+
+&lt;b&gt;Поддержка Firefox 24 добавлена в версии 0.3.6.7pre&lt;/b&gt;
+&lt;a href=&#34;https://addons.mozilla.org/firefox/addon/vkontakteru-downloader/versions/0.3.6.7pre&#34; rel=&#34;nofollow&#34;&gt;https://addons.mozilla.org/firefox/addon/vkontakteru-downloader/versions/0.3.6.7pre&lt;/a&gt;
+
+&lt;b&gt;Внимание&lt;/b&gt;
+Это дополнение предназначено только для сайтов &lt;a href=&#34;http://outgoing.mozilla.org/v1/41db01f046da5d451a8de67a7be5119ff8ab040ef397f51f5b226cedf0ff84c3/http%3A//VK.com&#34; rel=&#34;nofollow&#34;&gt;VK.com&lt;/a&gt; / &lt;a href=&#34;http://outgoing.mozilla.org/v1/575872fab1241a5b03e14b70e8a585c988c244b969f28225989111f5ec66e48e/http%3A//vkontakte.ru&#34; rel=&#34;nofollow&#34;&gt;vkontakte.ru&lt;/a&gt;, оно не работает на других сайтах.
+
+&lt;b&gt;Что-то работает не так? Попробуйте последнюю β-версию!&lt;/b&gt;
+(см. ниже раздел &lt;em&gt;Канал разработки&lt;/em&gt;)
+
+&lt;strong&gt;Лучше других&lt;/strong&gt;
+— скачивание действительно в &lt;em&gt;один клик&lt;/em&gt;, с учётом настроек браузера,
+  не нужно вызывать «Save Link As…» из контекстного меню;
+— имя файла — &lt;em&gt;оригинальное название&lt;/em&gt;, а не 021a81acc5f7.mp3;
+— отображение &lt;em&gt;размера файла&lt;/em&gt; и &lt;em&gt;битрейта&lt;/em&gt; для музыки (по клику на продолжительности);
+— скачивание &lt;em&gt;HQ фото&lt;/em&gt; в один клик (горячая клавиша Ctrl+Down);
+— скачивание &lt;em&gt;всех размеров&lt;/em&gt; HD-видео;
+— корректно работает &lt;em&gt;на любых страницах&lt;/em&gt;, включая поиск;
+— &lt;em&gt;не рассылает спам&lt;/em&gt; и не меняет настройки браузера.
+
+&lt;strong&gt;Обратная связь&lt;/strong&gt;
+E-mail: &lt;a href=&#34;http://outgoing.mozilla.org/v1/f60b231ec20316a44d99842d4c2f4228a01599c25fb4361b79466e06509df8c1/mailto%3Am17.admin%40gmail.com&#34; rel=&#34;nofollow&#34;&gt;m17.admin@gmail.com&lt;/a&gt;
+Twitter: &lt;a href=&#34;http://outgoing.mozilla.org/v1/d27a26f0b94198d198c00a74e6bce5bcfe48b415e23e57114bc3c5b692192065/http%3A//twitter.com/m17russia&#34; rel=&#34;nofollow&#34;&gt;@m17russia&lt;/a&gt;
+
+&lt;strong&gt;Слова для привлечения внимания&lt;/strong&gt;
+&lt;em&gt;скачать музыку вконтакте&lt;/em&gt;, &lt;em&gt;скачать видео вконтакте&lt;/em&gt;, &lt;em&gt;скачать фото вконтакте&lt;/em&gt;, &lt;em&gt;вконтакте скачать&lt;/em&gt;</description><license>
+    <name>Лицензия BSD</name>
+    <url>http://www.opensource.org/licenses/bsd-license.php</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/151/151188-64.png?modified=1379609296</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/151/151188-32.png?modified=1379609296</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.0</min_version>
+      <max_version>26.0a2</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application><application>
+      <name>SeaMonkey</name>
+      <application_id>59</application_id>
+      <min_version>2.0</min_version>
+      <max_version>2.23a2</max_version>
+      <appID>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="200" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/45/45060.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/45/45060.png?src=api&amp;modified=1331247702
+      </thumbnail></preview><preview position="1">
+      <full type="image/png" width="609" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/45/45063.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="174" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/45/45063.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Скачивание видео</caption></preview><preview position="1">
+      <full type="image/png" width="404" height="169">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/45/45064.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="83">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/45/45064.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Скачивание музыки</caption></preview><preview position="1">
+      <full type="image/png" width="550" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/51/51764.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="157" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/51/51764.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Скачивание фото</caption></preview></previews><rating>5</rating>
+  <learnmore>https://addons.mozilla.org/ru/firefox/addon/vkontakteru-downloader/?src=api</learnmore><install hash="sha256:10617793d60439e9232cc9ab306e279b587ce7558ab265f9ab994a1a2f2f7a73"
+    os="ALL"
+    size="46421">https://addons.mozilla.org/firefox/downloads/file/225798/vkontakteru_downloader_get_musicvideosphotos-0.3.6.6-fx+sm.xpi?src=api</install>
+  <install hash="sha256:d2b2ca1e6eb95d155f8992cb62f73c5623a2ddf3c2695307aed36b3469f23154" os=""
+             size="46427"
+             status="Бета">
+      https://addons.mozilla.org/firefox/downloads/file/225799/vkontakteru_downloader_get_musicvideosphotos-0.3.6.7pre-fx+sm.xpi?src=api
+    </install>
+    <developer_comments>Обратите внимание, что от выхода новой версии, до момента её утверждения (когда она станет публичной), проходит примерно неделя, поэтому если что-то не работает, сначала, пожалуйста, проверьте, не вышла ли новая версия, где это уже исправлено.
+
+Посмотреть все версии, в том числе ещё не ставшие публичными, можно на &lt;a href=&#34;https://addons.mozilla.org/ru/firefox/addons/versions/151188&#34; rel=&#34;nofollow&#34;&gt;странице версий&lt;/a&gt;.</developer_comments>
+    <reviews num="282">
+      https://addons.mozilla.org/ru/firefox/addon/vkontakteru-downloader/reviews/?src=api
+    </reviews>
+    <total_downloads>4264027</total_downloads>
+    <weekly_downloads>18488</weekly_downloads>
+    <daily_users>289536</daily_users>
+    <created epoch="1271859924">
+      2010-04-21T14:25:24Z
+    </created>
+    <last_updated epoch="1381964092">
+      2013-10-16T22:54:52Z
+    </last_updated>
+    <homepage>http://vkontakte.ru/downloader_extension</homepage>
+    <support>http://vkontakte.ru/downloader_extension</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+
+                  <addon id="5817">
+  <name>SQLite Manager</name>
+  <type id="1">Расширение</type>
+  <guid>SQLiteManager@mrinalkant.blogspot.com</guid>
+  <slug>sqlite-manager</slug>
+  <version>0.8.1</version>
+  <status id="4">Полностью проверен</status>
+  <authors>
+        <author id="237862">
+      <name>lazierthanthou</name>
+      <link>https://addons.mozilla.org/ru/firefox/user/lazierthanthou/?src=api</link>
+    </author>      </authors>
+  <summary>Manage any SQLite database on your computer.</summary>
+  <description>&lt;ul&gt;&lt;li&gt;Manage any SQLite database on your computer.
+&lt;/li&gt;&lt;li&gt;An intuitive heirarchical tree showing database objects.
+&lt;/li&gt;&lt;li&gt;Helpful dialogs to manage tables, indexes, views and triggers.
+&lt;/li&gt;&lt;li&gt;You can browse and search the tables, as well as add, edit, delete and duplicate the records.
+&lt;/li&gt;&lt;li&gt;Facility to execute any sql query.
+&lt;/li&gt;&lt;li&gt;The views can be searched too.
+&lt;/li&gt;&lt;li&gt;A dropdown menu helps with the sql syntax thus making writing sql easier.
+&lt;/li&gt;&lt;li&gt;Easy access to common operations through menu, toolbars, buttons and context-menu.
+&lt;/li&gt;&lt;li&gt;Export tables/views/database in csv/xml/sql format. Import from csv/xml/sql (both UTF-8 and UTF-16). &lt;/li&gt;&lt;li&gt;Possible to execute multiple sql statements in Execute tab.
+&lt;/li&gt;&lt;li&gt;You can save the queries.
+&lt;/li&gt;&lt;li&gt;Support for ADS on Windows.
+&lt;/li&gt;&lt;/ul&gt;
+
+New issues, bugs, request for enhancements can be entered at:
+&lt;a href=&#34;http://outgoing.mozilla.org/v1/c4da9fc74d178e7fe935110d531529c14e2eb736/http%3A//code.google.com/p/sqlite-manager/issues/list.&#34;&gt;http://code.google.com/p/sqlite-manager/issues/list.&lt;/a&gt;</description><license>
+    <name>Mozilla Public License, версия 1.1</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/5/5817-64.png?modified=1353499593</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/5/5817-32.png?modified=1353499593</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>22.0</min_version>
+      <max_version>27.0</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application><application>
+      <name>Thunderbird</name>
+      <application_id>18</application_id>
+      <min_version>22.0</min_version>
+      <max_version>27.0</max_version>
+      <appID>{3550f703-e582-4d05-9a08-453d09bdfdc6}</appID>
+    </application><application>
+      <name>SeaMonkey</name>
+      <application_id>59</application_id>
+      <min_version>2.1</min_version>
+      <max_version>2.24</max_version>
+      <appID>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="700" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/17/17219.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/17/17219.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Main screen</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/17/17038.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/17/17038.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Main window</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/17/17042.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/17/17042.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Create a Table</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/17/17043.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/17/17043.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Search</caption></preview></previews><rating>5</rating>
+  <learnmore>https://addons.mozilla.org/ru/firefox/addon/sqlite-manager/?src=api</learnmore><install hash="sha256:0d8e0203a082ee28fa489971e55b6ad6d2042b336882d3b0a579c3790d068c15"
+    os="ALL"
+    size="248650">https://addons.mozilla.org/firefox/downloads/file/228658/sqlite_manager-0.8.1-fx+tb+sm.xpi?src=api</install>
+  <developer_comments>The source code and various scripts used in this project are hosted as a git repository at &lt;a href=&#34;http://outgoing.mozilla.org/v1/5649afde9a5e13a1048cf9b760331a3614ce9038/https%3A//github.com/lazierthanthou/sqlite-manager&#34; rel=&#34;nofollow&#34;&gt;https://github.com/lazierthanthou/sqlite-manager&lt;/a&gt;.
+
+The following command will create a clone of the project in your current directory:
+&lt;code&gt;git clone &lt;a href=&#34;http://outgoing.mozilla.org/v1/364c2d5a2f219923b4f6f8afabafe84fc4d13293/git%3A//github.com/lazierthanthou/sqlite-manager.git&#34; rel=&#34;nofollow&#34;&gt;git://github.com/lazierthanthou/sqlite-manager.git&lt;/a&gt;&lt;/code&gt;
+
+In case you would like to download the source without having to clone the repository,
+&lt;ul&gt;&lt;li&gt;you can &lt;a href=&#34;http://outgoing.mozilla.org/v1/c6dd79bb8e09a3ba299700366b3135e9c655f7e8/https%3A//github.com/lazierthanthou/sqlite-manager/tarball/master&#34; rel=&#34;nofollow&#34;&gt;download the tarball&lt;/a&gt;&lt;/li&gt;&lt;li&gt;or, you can &lt;a href=&#34;http://outgoing.mozilla.org/v1/41bf82365ec3af6bee374b011287bf74148c66ca/https%3A//github.com/lazierthanthou/sqlite-manager/zipball/master&#34; rel=&#34;nofollow&#34;&gt;download the zip&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</developer_comments>
+    <reviews num="44">
+      https://addons.mozilla.org/ru/firefox/addon/sqlite-manager/reviews/?src=api
+    </reviews>
+    <total_downloads>2730209</total_downloads>
+    <weekly_downloads>10883</weekly_downloads>
+    <daily_users>201015</daily_users>
+    <created epoch="1191802708">
+      2007-10-08T00:18:28Z
+    </created>
+    <last_updated epoch="1379893430">
+      2013-09-22T23:43:50Z
+    </last_updated>
+    <homepage>http://sqlite-manager.googlecode.com/</homepage>
+    <support>http://code.google.com/p/sqlite-manager/issues/list</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+
+                  <addon id="347439">
+  <name>Russian Hunspell dictionary</name>
+  <type id="3">Словарь</type>
+  <guid>hunspell-ru@dictionaries.addons.mozilla.org</guid>
+  <slug>russian-hunspell-dictionary</slug>
+  <version>1.0.20131101</version>
+  <status id="4">Полностью проверен</status>
+  <authors>
+        <author id="5955802">
+      <name>Александр Клюквин</name>
+      <link>https://addons.mozilla.org/ru/thunderbird/user/Shaman_Alex/?src=api</link>
+    </author>      </authors>
+  <summary>Ежемесячно пополняемый словарь без поддержки буквы ё. Основа взята из словаря Зализняка, но есть и дополнительная база. Версия от 01.12.2011 года содержит более 176 тысячи слов.</summary>
+  <description>Этот словарь изначально создавался и ведется для работы с художественной литературой. Поддержка буквы ё именно там не актуальна, в подавляющем большинстве книги просто её не содержат.
+
+За основу был взят широко известный словарь Александра Лебедева. Спустя некоторое время выяснилось, что этот словарь весьма отрывочен, несколько бессистемен. К тому же в нем содержались ошибки в генерации словоформ. В результате было принято решение построить свой словарь на основе словаря Зализняка. В исходный словарь Лебедева добавлялись слова из словаря Зализняка, а правила генерации словоформ переписывались. В декабре 2011 года полностью завершена работа с окончаниями всех частей речи (существительные, прилагательные и причастия, глаголы и деепричастия, наречия от прилагательных и причастий, числительные и местоимения). В текущее время, в 2012 году, идет работа по выделению приставок.
+
+Релиз словаря выходит один раз в месяц, как правило, первого числа.
+
+Параллельно идет работа над словарем с поддержкой буквы ё. Пока в этом словаре предполагается только материал из словаря Зализняка. Релиз словаря с поддержкой буквы ё предполагается не раньше 2013 года, там огромная по объему работа, а времени категорически не хватает.
+
+Вниманию пользователей!
+
+Замечена особенность словаря, превращающаяся в серьезный недостаток. Дело в том, что этот словарь устанавливается как дополнение, т.е. хранится в профиле браузера. В то же время в основной директории браузера C:\Program Files\Mozilla Firefox\dictionaries\ тоже находится словарь русского языка, как раз старый словарь Лебедева. Файрфокс проверяет слова как раз по словарю из dictionaries, и если там пусто, то тогда уже работает обновление. Необходимо после каждого апдейта чистить директорию dictionaries.
+
+Номер версии построен по принципу &#34;1.0.&#34;+дата релиза в формате ГГГГММДД. Версия 1.0.20111201 означает релиз от 1 декабря 2011 года.</description><license>
+    <name>GNU Lesser General Public License, версия 3.0</name>
+    <url>http://www.gnu.org/licenses/lgpl-3.0.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/media//img/addon-icons/webdev-64.png</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/media//img/addon-icons/webdev-32.png</icon>
+  <compatible_applications><application>
+      <name>Thunderbird</name>
+      <application_id>18</application_id>
+      <min_version>2.0a1</min_version>
+      <max_version>28.0</max_version>
+      <appID>{3550f703-e582-4d05-9a08-453d09bdfdc6}</appID>
+    </application><application>
+      <name>SeaMonkey</name>
+      <application_id>59</application_id>
+      <min_version>1.1a</min_version>
+      <max_version>2.25</max_version>
+      <appID>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</appID>
+    </application><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>2.0</min_version>
+      <max_version>28.0</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application><application>
+      <name>Mobile</name>
+      <application_id>60</application_id>
+      <min_version>4.0b1pre</min_version>
+      <max_version>28.0</max_version>
+      <appID>{a23983c0-fd0e-11dc-95ff-0800200c9a66}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/ru/thunderbird/addon/russian-hunspell-dictionary/?src=api</learnmore><install hash="sha256:cf3a81ab0fb5e2703ea5c9786a2f324a3ad6659dd97f316974055f94a23abf14"
+    os="ALL"
+    size="790311">https://addons.mozilla.org/thunderbird/downloads/file/233068/russian_hunspell_dictionary-1.0.20131101-tb+sm+fn+fx.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="24">
+      https://addons.mozilla.org/ru/thunderbird/addon/russian-hunspell-dictionary/reviews/?src=api
+    </reviews>
+    <total_downloads>214261</total_downloads>
+    <weekly_downloads>1504</weekly_downloads>
+    <daily_users>35588</daily_users>
+    <created epoch="1320177421">
+      2011-11-01T19:57:01Z
+    </created>
+    <last_updated epoch="1383662619">
+      2013-11-05T14:43:39Z
+    </last_updated>
+    <homepage>http://code.google.com/p/hunspell-ru/</homepage>
+    <support>http://code.google.com/p/hunspell-ru/</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+
+                  <addon id="325576">
+  <name>anonymoX</name>
+  <type id="1">Расширение</type>
+  <guid>client@anonymox.net</guid>
+  <slug>anonymox</slug>
+  <version>2.1.1</version>
+  <status id="4">Полностью проверен</status>
+  <authors>
+        <author id="5792631">
+      <name>NilsHügelmann</name>
+      <link>https://addons.mozilla.org/ru/firefox/user/NilsH%C3%BCgelmann/?src=api</link>
+    </author><author id="1789898">
+      <name>ochristi</name>
+      <link>https://addons.mozilla.org/ru/firefox/user/ochristi/?src=api</link>
+    </author><author id="6188461">
+      <name>theChaoS</name>
+      <link>https://addons.mozilla.org/ru/firefox/user/theChaoS/?src=api</link>
+    </author>      </authors>
+  <summary>Easy anonymous web browsing.
+– Change your IP-Address and country
+– Visit blocked or censored websites.
+– Delete cookies, show your public ip, and more
+
+No proxies or other programs required</summary>
+  <description>AnonymoX is an initiative for anonymization in the internet. The aim is to restore the users right of anonymity in the web. Most websites monitor the behaviour of their users, giving the websites hosts the ability to analyze the general users behaviour and create detailed user profiles, which often times are sold to third parties.
+A thread for the freedom of speech of the internet manifests in the repression through federal or private organizations. More and more governments censor websites with the excuse of child safety, copyright infringement or the fight against terrorism and thereby limit the freedom of speech.
+Also blocking users by based on their origin with GeoIP-Blocks is applied often, for example at media platforms like YouTube.
+ 
+&lt;b&gt;anonymoX enables you to...&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Browse the web anonymously&lt;/li&gt;&lt;li&gt;Change your IP-Address (to one provided by us)&lt;/li&gt;&lt;li&gt;Visit blocked/censored websites&lt;/li&gt;&lt;li&gt;Appear to originate from another country&lt;/li&gt;&lt;li&gt;Delete cookies, show your public ip, change browser id,  ....&lt;/li&gt;&lt;/ul&gt;
+&lt;b&gt;Short summary of it&#39;s functionality&lt;/b&gt;
+Instead of accessing a website directly, it&#39;ll be first opened by one of our servers, called Proxy.
+This Proxy hides your true internet identity and makes it look as if not you, but the Proxy is currently visiting the website.
+
+anonymoX is more than just an Add-On. The actual anonymization and country faking is done by an anonymization network. It consists of many servers, in every country of your country list. These servers are provided and managed by us.
+If you use anonymoX&#39;s anonymization network without paying, that is only possible because you indirectly participate in the server funding by viewing advertisements.
+
+For ad-free and unrestricted usage of the anonymization network and the Add-On, you need anonymoX Premium.
+
+&lt;b&gt;Please note&lt;/b&gt; our &lt;a href=&#34;http://outgoing.mozilla.org/v1/3cd676157e62eaca92b36dcd862ee94184339332e019a627d3b1831942d18e10/http%3A//www.anonymox.net/en/guideline-for-proper-use&#34; rel=&#34;nofollow&#34;&gt;Guideline for proper use&lt;/a&gt;, if correct functionality and anonymity is very important to you.</description><license>
+    <name></name>
+    <url>https://addons.mozilla.org/ru/firefox/addon/anonymox/license/2.1.1</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/325/325576-64.png?modified=1382611468</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/325/325576-32.png?modified=1382611468</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>5.0</min_version>
+      <max_version>25.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="253" height="359">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/103/103898.png?src=api&amp;modified=1371579311
+      </full>
+      <thumbnail type="" width="106" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/103/103898.png?src=api&amp;modified=1371579311
+      </thumbnail><caption>The settings panel from which you can change country,  identity and others</caption></preview><preview position="1">
+      <full type="" width="700" height="377">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/103/103900.png?src=api&amp;modified=1371579311
+      </full>
+      <thumbnail type="" width="200" height="108">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/103/103900.png?src=api&amp;modified=1371579311
+      </thumbnail><caption>The settings panel and a website that shows the anonymized IP-Address instead of the real one</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/ru/firefox/addon/anonymox/?src=api</learnmore><install hash="sha256:f9e531a67059f61fefe830e550e7551d96d2b570c5c5fc6ce8d30ec7c37b01c3"
+    os="ALL"
+    size="355782">https://addons.mozilla.org/firefox/downloads/file/226274/anonymox-2.1.1-fx.xpi?src=api</install>
+  <developer_comments>Third party proxies are not yet supported.</developer_comments>
+    <reviews num="94">
+      https://addons.mozilla.org/ru/firefox/addon/anonymox/reviews/?src=api
+    </reviews>
+    <total_downloads>6432734</total_downloads>
+    <weekly_downloads>103203</weekly_downloads>
+    <daily_users>409815</daily_users>
+    <created epoch="1310461233">
+      2011-07-12T09:00:33Z
+    </created>
+    <last_updated epoch="1377797993">
+      2013-08-29T17:39:53Z
+    </last_updated>
+    <homepage>http://www.anonymox.net/en</homepage>
+    <support>http://www.anonymox.net/en/support-feedback</support>
+    <featured>1</featured>
+        <performance>
+      </performance>
+    </addon>
+
+                  <addon id="3006">
+  <name>Video DownloadHelper</name>
+  <type id="1">Расширение</type>
+  <guid>{b9db16a4-6edc-47ec-a1f4-b86292ed211d}</guid>
+  <slug>video-downloadhelper</slug>
+  <version>4.9.21</version>
+  <status id="4">Полностью проверен</status>
+  <authors>
+        <author id="32479">
+      <name>mig</name>
+      <link>https://addons.mozilla.org/ru/firefox/user/mig/?src=api</link>
+    </author>      </authors>
+  <summary>The easy way to download and convert Web videos from hundreds of YouTube-like sites.
+This works also for audio and picture galleries.</summary>
+  <description>DownloadHelper is a tool for web content extraction. Its purpose is to capture video and image files from many sites.
+
+Just surf the Web as you are used to, when DownloadHelper detects it can do something for you, the icon gets animated and a menu allows you to download files by simply clicking an item
+
+For instance, if you go to a YouTube page, you&#39;ll be able to download the video directly on your file system. It also works with MySpace, Google videos, DailyMotion, Porkolt, iFilm, DreamHost and others.
+
+Since version 3.1, you can setup the extension to automatically convert the downloaded movies to your preferred video format.
+
+When you are on a page containing links to images or movies, you can download some or all of them at once. Moving the mouse over the items in the menu will highlights the links directly in the page to make sure they are the ones you want to pick up.
+
+DownloadHelper also allows you to download files one by one, so that you keep bandwidth to surf for other stuff to download.
+
+To modify your preferences, like changing the download directory, right-click on the icon and choose &#34;Preferences&#34;.
+
+When you first install the extension, your browser is redirected to a welcome page with links to a user manual at &lt;a href=&#34;http://outgoing.mozilla.org/v1/e082e7b841234b6e9644f79460f464b8d338595bcef88dbb579e7509468e9597/http%3A//www.downloadhelper.net/manual.php&#34; rel=&#34;nofollow&#34;&gt;http://www.downloadhelper.net/manual.php&lt;/a&gt; and a faq at &lt;a href=&#34;http://outgoing.mozilla.org/v1/a9aec9bd66992a22e36edce6354da4913b8beccafd3ed78ca9146139da2e7c39/http%3A//www.downloadhelper.net/faq.php&#34; rel=&#34;nofollow&#34;&gt;http://www.downloadhelper.net/faq.php&lt;/a&gt;
+
+This does not change your homepage setting and the welcome page won&#39;t appear anymore.
+
+Support can be obtained from &lt;a href=&#34;http://outgoing.mozilla.org/v1/b74c9f2c1a75a3a67b56bd95e1b12756aaa829bed7d8819c1322eee5f3476e88/http%3A//www.downloadhelper.net/support.php&#34; rel=&#34;nofollow&#34;&gt;http://www.downloadhelper.net/support.php&lt;/a&gt;
+
+***********************
+
+If you are having problems downloading videos from YouTube, please check this link: &lt;a href=&#34;http://outgoing.mozilla.org/v1/79ecd542f674c3b5356a5a4fd1428e8d236ef393c491a5d2e0b8afe7aaeea343/http%3A//bugzilla.downloadhelper.net%3A8080/show_bug.cgi%3Fid=536&#34; rel=&#34;nofollow&#34;&gt;http://bugzilla.downloadhelper.net:8080/show_bug.cgi?id=536&lt;/a&gt;
+
+UPDATE July 19th 2013: 
+
+For today&#39;s youtube changes, please follow this procedure for downloading videos that currently generate empty files:
+
+- Open url &#34;about:config&#34;
+- Create a new parameter called &#34;&lt;a href=&#34;http://outgoing.mozilla.org/v1/b179516455d41c6755348b4a30324c71c3078317d69c6de569b67f0811808547/http%3A//dwhelper.yt&#34; rel=&#34;nofollow&#34;&gt;dwhelper.yt&lt;/a&gt;-sig-perm-85&#34; of type String
+- Set its value to &#34;[[2,8],[0,1],[9,21],[65,66],[22,65],[84,85],[66,82],[21,22]]&#34;
+(without the quotes).
+- Reload the youtube page (no need to restart Firefox) and you should be done.
+
+UPDATE July 22nd 2013: 
+
+4.9.18 is waiting for approval at Mozilla. This version automatically adapts to YouTube signature changes (responsible for empty downloads) and fixes a few bugs like video variant ordering and removal of audioless or videoless variants.
+
+UPDATE July 24th 2013:
+
+YouTube changed their signature last night.
+
+Version 4.9.19 is waiting for approval at &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/versions/&#34; rel=&#34;nofollow&#34;&gt;https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/versions/&lt;/a&gt;
+
+Note that since 4.9.18, Video DownloadHelper automatically learns the new signatures, but your first downloads just after a signature change may fail. Just reload the YouTube video page, wait for the video to start playing after the ad and retry downloading a few times (generally 1 to 4 attempts are enough to generate the signature).
+
+UPDATE July 26th 2013:
+
+YouTube changed their signature permutation method again last night.
+
+4.9.19 and 4.9.20 has been removed from the Mozilla review pool.
+
+Current working version is 4.9.21a1 (soon to be submitted to Mozilla as 4.9.21): &lt;a href=&#34;http://outgoing.mozilla.org/v1/7c1cc92101c730f5809cd74abadeae1bce1280cc3cc7b52a595f8e482ed83ee1/http%3A//www.downloadhelper.net/install-beta.php%3Fversion=4.9.21a1&#34; rel=&#34;nofollow&#34;&gt;http://www.downloadhelper.net/install-beta.php?version=4.9.21a1&lt;/a&gt;
+
+Details here: &lt;a href=&#34;http://outgoing.mozilla.org/v1/79ecd542f674c3b5356a5a4fd1428e8d236ef393c491a5d2e0b8afe7aaeea343/http%3A//bugzilla.downloadhelper.net%3A8080/show_bug.cgi%3Fid=536&#34; rel=&#34;nofollow&#34;&gt;http://bugzilla.downloadhelper.net:8080/show_bug.cgi?id=536&lt;/a&gt;</description><license>
+    <name>Custom License</name>
+    <url>https://addons.mozilla.org/ru/firefox/addon/video-downloadhelper/license/4.9.21</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/3/3006-64.png?modified=1377537724</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/3/3006-32.png?modified=1377537724</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.0</min_version>
+      <max_version>25.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application><application>
+      <name>SeaMonkey</name>
+      <application_id>59</application_id>
+      <min_version>2.0</min_version>
+      <max_version>2.10.*</max_version>
+      <appID>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="200" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/25/25993.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/25/25993.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Video DownloadHelper</caption></preview><preview position="1">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/7/7647.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/7/7647.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>YouTube video download</caption></preview><preview position="1">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/7/7649.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/7/7649.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>DownloadHelper can help you !</caption></preview><preview position="1">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/7/7650.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/7/7650.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>DownloadHelper in Tools menu</caption></preview><preview position="1">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/7/7651.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/7/7651.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>DownloadHelper in Context menu</caption></preview><preview position="1">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/7/7653.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/7/7653.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Highlighting items to download</caption></preview><preview position="1">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/7/7654.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/7/7654.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Configuration and help menu</caption></preview><preview position="1">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/7/7655.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/7/7655.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Configuration panel</caption></preview><preview position="1">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/7/7677.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/7/7677.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Customize toolbars</caption></preview><preview position="1">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/7/7678.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/7/7678.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Download menu</caption></preview><preview position="1">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/8/8335.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/8/8335.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Download queue count</caption></preview><preview position="1">
+      <full type="image/png" width="200" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/22/22864.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/22/22864.png?src=api&amp;modified=1331247702
+      </thumbnail></preview><preview position="1">
+      <full type="image/png" width="200" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/22/22865.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/22/22865.png?src=api&amp;modified=1331247702
+      </thumbnail></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/ru/firefox/addon/video-downloadhelper/?src=api</learnmore><install hash="sha256:f2399581bfaef94e5ffae206d19dac0cee8af13f0c9beab4b727172093ac88c8"
+    os="ALL"
+    size="778019">https://addons.mozilla.org/firefox/downloads/file/224748/video_downloadhelper-4.9.21-fx+sm.xpi?src=api</install>
+  <developer_comments>Please, do not use comments as support forum.
+
+If you have problems installing or using DownloadHelper, you should have a look at the following resources:
+
+&lt;ul&gt;&lt;li&gt;&lt;a href=&#34;http://outgoing.mozilla.org/v1/a9aec9bd66992a22e36edce6354da4913b8beccafd3ed78ca9146139da2e7c39/http%3A//www.downloadhelper.net/faq.php&#34; rel=&#34;nofollow&#34;&gt;the FAQ&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;http://outgoing.mozilla.org/v1/e082e7b841234b6e9644f79460f464b8d338595bcef88dbb579e7509468e9597/http%3A//www.downloadhelper.net/manual.php&#34; rel=&#34;nofollow&#34;&gt;the manual&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;http://outgoing.mozilla.org/v1/a557823ef06562842f6a3614a8d9ce6c3d305cb82793c246e4b79784da8cac7b/http%3A//www.downloadhelper.net/conversion-manual.php&#34; rel=&#34;nofollow&#34;&gt;the guide for video conversion&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+If you didn&#39;t find an answer from the links above, you can fill a support request from &lt;a href=&#34;http://outgoing.mozilla.org/v1/429d7d2f9fe0b21793fccff2899d6e502fffdf7ad0922669363b6d57043bf21c/http%3A//www.downloadhelper.net/support-expert.php&#34; rel=&#34;nofollow&#34;&gt;http://www.downloadhelper.net/support-expert.php&lt;/a&gt;
+
+**********************************************************
+
+&lt;b&gt;TO THOSE WHO LIKE BLEEDING EDGE ADD-ON TECHNOLOGY:&lt;/b&gt;
+
+Video DownloadHelper 4.9 includes a new beta feature: Direct Screen Capture
+&lt;ul&gt;&lt;li&gt;- the feature grabs the video directly from the screen. Even if this method has some inconvenience compared to the network capture (the video must be played on your screen the whole duration of the capture), it makes Video DownloadHelper work on all sites, regardless of the underlying streaming protocol. You can also capture videos from a flash applet running in the page which was previously not possible. &lt;/li&gt;&lt;/ul&gt;
+To enable that Screen Capture feature:
+
+&lt;ul&gt;&lt;li&gt;make sure you are running at least Firefox 4.0. It won&#39;t work on previous versions. If you haven&#39;t already done so, upgrade your browser from &lt;a href=&#34;http://outgoing.mozilla.org/v1/e72dbf2b6626e69c494c92cdf867f500a90dd5a679064fc0bba973637afa88a1/http%3A//www.getfirefox.com/&#34; rel=&#34;nofollow&#34;&gt;http://www.getfirefox.com/&lt;/a&gt;&lt;/li&gt;&lt;li&gt;open the Video DownloadHelper add-on preferences, section &#34;Capture&#34;, tab &#34;Screen Capture&#34; and check the &#34;Enable Screen capture&#34; box&lt;/li&gt;&lt;li&gt;once the screen capture has been setup, you&#39;ll see a new button next to the DownloadHelper toolbar icon. Click it to start the capture of the currently playing video. Click again to stop the capture and save the file. Alternatively, you can use the context menu (right-click in the page but outside the flash area) to choose the screen region to be captured&lt;/li&gt;&lt;/ul&gt;
+The Screen Capture feature relies on external tools to do the grabbing, therefore it depends on the platform you are running on:
+
+&lt;ul&gt;&lt;li&gt;on Windows: you will have to also install the &lt;a href=&#34;http://outgoing.mozilla.org/v1/2663245e888f1330c57be45bc0733a642ccb89057305b73ab243660bd2f513c2/http%3A//www.downloadhelper.net/install-cshelper.php&#34; rel=&#34;nofollow&#34;&gt;CSHelper add-on&lt;/a&gt;  which provides a modified version of CamStudio. CSHelper and the software applications it contains are open sourced under the GPL license. &lt;/li&gt;&lt;li&gt;on Linux, the feature relies by default on the &#34;recordmydesktop&#34;  application. If you are running Ubuntu, you may have to do &#34;sudo apt-get install recordmydesktop&#34; to install that program. On other Linux distributions, you&#39;ll figure out. You also may want to use another screen grabbing utility like xvidcap or something else: please let us know about your setup if you succeed&lt;/li&gt;&lt;li&gt;on Mac OS X, we haven&#39;t yet identified a suitable screen grabbing utility. If you are a Mac warrior and want to make some research on this, we&#39;d love to hear from you&lt;/li&gt;&lt;/ul&gt;</developer_comments>
+    <reviews num="4021">
+      https://addons.mozilla.org/ru/firefox/addon/video-downloadhelper/reviews/?src=api
+    </reviews>
+    <total_downloads>155483845</total_downloads>
+    <weekly_downloads>422441</weekly_downloads>
+    <daily_users>6750150</daily_users>
+    <created epoch="1153570843">
+      2006-07-22T12:20:43Z
+    </created>
+    <last_updated epoch="1377538194">
+      2013-08-26T17:29:54Z
+    </last_updated>
+    <homepage>http://www.downloadhelper.net/</homepage>
+    <support>http://www.downloadhelper.net/documentation.php</support>
+    <featured>1</featured>
+        <performance>
+            <application name="fx" version="8.0.1">
+                <platform name="MacOSX" version="10.6 (rev4)">
+          <result type="ts" baseline="637.58" average="640.32"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="548.47" average="560.16"
+                  above_threshold="false" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="479.26" average="483.26"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="6.0.2">
+                <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="476.21" average="486.26"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="519.79" average="545.95"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2">
+          <result type="ts" baseline="654.42" average="685.84"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="7.0.1">
+                <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="479.68" average="480.63"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2 (rev3)">
+          <result type="ts" baseline="667.37" average="711.84"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="547.16" average="560.63"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2">
+          <result type="ts" baseline="671.16" average="700.63"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="8.0">
+                <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="541.58" average="549.05"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6 (rev4)">
+          <result type="ts" baseline="624.84" average="641.58"
+                  above_threshold="false" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="477.95" average="483.53"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2 (rev3)">
+          <result type="ts" baseline="657.21" average="681.84"
+                  above_threshold="false" />
+        </platform></application></performance>
+    </addon>
+
+                  <addon id="6349">
+  <name>BugMeNot</name>
+  <type id="1">Расширение</type>
+  <guid>{987311C6-B504-4aa2-90BF-60CC49808D42}</guid>
+  <slug>bugmenot</slug>
+  <version>2.2</version>
+  <status id="4">Полностью проверен</status>
+  <authors>
+        <author id="147584">
+      <name>retailmenot</name>
+      <link>https://addons.mozilla.org/ru/firefox/user/retailmenot/?src=api</link>
+    </author>      </authors>
+  <summary>Bypass compulsory web registration with the context menu via www.bugmenot.com.</summary>
+  <description>Activate the extension by right-clicking on a user name and/or password field of a site that asks for registration. BugMeNot will log in for you automatically using user-submitted passwords. Features: multiple login attempts, failure reporting, and auto-submittal.
+
+************************************************************
+Request new features here:
+&lt;a href=&#34;http://outgoing.mozilla.org/v1/18ee36d2073f0d18f7302e38c86a9e465001c749/https%3A//fundry.com/project/2&#34;&gt;https://fundry.com/project/2&lt;/a&gt;
+************************************************************</description><license>
+    <name>Mozilla Public License, версия 1.1</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/6/6349-64.png?modified=1301348657</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/6/6349-32.png?modified=1301348657</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>2.0</min_version>
+      <max_version>25.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula>The user agrees to only use the extension to access free, mandatory registration sites. Attempting to access non-free and/or private web sites is against the intention of this extension and is a violation of the user agreement.</eula><previews><preview position="1">
+      <full type="image/png" width="628" height="469">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/18/18240.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="149">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/18/18240.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Automatically log in to web sites with BugMeNot</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/ru/firefox/addon/bugmenot/?src=api</learnmore><install hash="sha256:0a0dce7ba2e97bfb3c64d53cd03cb1e84a3e8b295f48bc5c3f32b6c808067c0c"
+    os="ALL"
+    size="22528">https://addons.mozilla.org/firefox/downloads/file/63737/bugmenot-2.2-fx.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="200">
+      https://addons.mozilla.org/ru/firefox/addon/bugmenot/reviews/?src=api
+    </reviews>
+    <total_downloads>2322598</total_downloads>
+    <weekly_downloads>1680</weekly_downloads>
+    <daily_users>65364</daily_users>
+    <created epoch="1200549688">
+      2008-01-17T06:01:28Z
+    </created>
+    <last_updated epoch="1252948480">
+      2009-09-14T17:14:40Z
+    </last_updated>
+    <homepage>http://bugmenot.com</homepage>
+    <support>https://fundry.com/project/2</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+
+                  <addon id="10222">
+  <name>Advanced Cookie Manager</name>
+  <type id="1">Расширение</type>
+  <guid>cookiemgr@jayapal.com</guid>
+  <slug>cookie-manager</slug>
+  <version>5.5</version>
+  <status id="4">Полностью проверен</status>
+  <authors>
+        <author id="3591313">
+      <name>Jayapal Karakala</name>
+      <link>https://addons.mozilla.org/ru/firefox/user/jayapal-karakala/?src=api</link>
+    </author>      </authors>
+  <summary>A must have tool for Web Developers and Testers to Manage and monitor web cookies. 
+
+Features List:
+Add
+Delete
+Modify 
+Export / Backup
+Import / Restore 
+Monitor cookies
+
+Available in English, French, Spanish, German and Italian languages.</summary>
+  <description>Cookie Manager is useful for Web Developers and Testers to manage and monitor live web site cookies. 
+
+Using this tool, one can view, add, modify and delete cookies in any of the domain. 
+
+This tool gives a easy and enhanced view of all the cookies in your browser. 
+
+To simplify browsing cookies, you can use filters to remove the unwanted domains and cookies from the view. This will be really useful, if you are looking for a specific domain / cookie.
+
+Export and import of cookies, is very handy in saving and recreating the browser sessions for websites. Using Auto-import cookies, you can restore all your cookies on the browser start-up. 
+
+There are several customizations that you can do, using the Settings tab to enhance the usage experience.
+
+For more details, please look at below links:
+&lt;a href=&#34;http://outgoing.mozilla.org/v1/d8d16d4e354891a6f30a939ac776e8a2feec73944031e52376e2ad238e8f3bc2/http%3A//www.facebook.com/cookiemanager&#34; rel=&#34;nofollow&#34;&gt;http://www.facebook.com/cookiemanager&lt;/a&gt;
+&lt;a href=&#34;http://outgoing.mozilla.org/v1/02ea5042d3d4355544983c8b33e02006193f8f459f64b292dbcc5f50fc96a592/http%3A//cookiemanager.blogspot.com/&#34; rel=&#34;nofollow&#34;&gt;http://cookiemanager.blogspot.com/&lt;/a&gt;</description><license>
+    <name>Mozilla Public License, version 2.0</name>
+    <url>http://www.mozilla.org/MPL/2.0/</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/10/10222-64.png?modified=1374569658</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/10/10222-32.png?modified=1374569658</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>4.0</min_version>
+      <max_version>27.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="264" height="90">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/100/100016.png?src=api&amp;modified=1374569658
+      </full>
+      <thumbnail type="" width="200" height="68">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/100/100016.png?src=api&amp;modified=1374569658
+      </thumbnail><caption>Cookie Manager - Toolbar Icon</caption></preview><preview position="1">
+      <full type="" width="260" height="131">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/100/100010.png?src=api&amp;modified=1374569658
+      </full>
+      <thumbnail type="" width="200" height="101">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/100/100010.png?src=api&amp;modified=1374569658
+      </thumbnail><caption>Cookie Manager Menu Item</caption></preview><preview position="2">
+      <full type="" width="700" height="364">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/109/109178.png?src=api&amp;modified=1374569658
+      </full>
+      <thumbnail type="" width="200" height="104">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/109/109178.png?src=api&amp;modified=1374569658
+      </thumbnail><caption>Cookie Manager Main Window</caption></preview><preview position="3">
+      <full type="" width="700" height="364">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/109/109180.png?src=api&amp;modified=1374569658
+      </full>
+      <thumbnail type="" width="200" height="104">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/109/109180.png?src=api&amp;modified=1374569658
+      </thumbnail><caption>Cookie Manager - Monitor Window</caption></preview><preview position="4">
+      <full type="" width="700" height="364">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/109/109182.png?src=api&amp;modified=1374569658
+      </full>
+      <thumbnail type="" width="200" height="104">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/109/109182.png?src=api&amp;modified=1374569658
+      </thumbnail><caption>Cookie Manager - Settings Window</caption></preview><preview position="5">
+      <full type="" width="246" height="228">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/109/109184.png?src=api&amp;modified=1374569658
+      </full>
+      <thumbnail type="" width="162" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/109/109184.png?src=api&amp;modified=1374569658
+      </thumbnail><caption>Cookie Manager About Dialog</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/ru/firefox/addon/cookie-manager/?src=api</learnmore><install hash="sha256:0cf5d32da884630a89386fe79bc9bdb68517a003efd6b8fead044d6eb7f880e1"
+    os="ALL"
+    size="91216">https://addons.mozilla.org/firefox/downloads/file/231072/advanced_cookie_manager-5.5-fx.xpi?src=api</install>
+  <contribution_data>
+      <link>https://addons.mozilla.org/ru/firefox/addon/cookie-manager/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="1.99">
+            1,99 $
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/ru/firefox/addon/cookie-manager/developers?src=api
+      </meet_developers>
+    </contribution_data><developer_comments></developer_comments>
+    <reviews num="14">
+      https://addons.mozilla.org/ru/firefox/addon/cookie-manager/reviews/?src=api
+    </reviews>
+    <total_downloads>341774</total_downloads>
+    <weekly_downloads>2641</weekly_downloads>
+    <daily_users>31758</daily_users>
+    <created epoch="1230699766">
+      2008-12-31T05:02:46Z
+    </created>
+    <last_updated epoch="1382311871">
+      2013-10-20T23:31:11Z
+    </last_updated>
+    <homepage>http://www.facebook.com/cookiemanager</homepage>
+    <support>http://cookiemanager.blogspot.com/</support>
+    <featured>1</featured>
+        <performance>
+      </performance>
+    </addon>
+
+                  <addon id="1433">
+  <name>Extended Statusbar</name>
+  <type id="1">Расширение</type>
+  <guid>{daf44bf7-a45e-4450-979c-91cf07434c3d}</guid>
+  <slug>extended-statusbar</slug>
+  <version>1.5.8</version>
+  <status id="4">Полностью проверен</status>
+  <authors>
+        <author id="7572">
+      <name>Strahinja Kustudić</name>
+      <link>https://addons.mozilla.org/ru/firefox/user/kustodian/?src=api</link>
+    </author>      </authors>
+  <summary>Строка состояния с показателями скорости, размера, процента и времени загрузки страницы (нечто подобное Опере).</summary>
+  <description>Adds an Opera-like statusbar that shows:
+   - percentage of the page loaded,
+   - number of loaded images,
+   - bytes downloaded,
+   - average download speed,
+   - load time.</description><license>
+    <name>Mozilla Public License, версия 1.1</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/1/1433-64.png?modified=1351627617</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/1/1433-32.png?modified=1351627617</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>2.0</min_version>
+      <max_version>25.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/25/25129.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/25/25129.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Classic Style</caption></preview><preview position="1">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/25/25130.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/25/25130.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>New Style with custom colors</caption></preview><preview position="1">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/25/25813.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/25/25813.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>New Style with default colors</caption></preview><preview position="1">
+      <full type="image/png" width="542" height="300">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/25/25814.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="110">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/25/25814.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Slim mode</caption></preview><preview position="1">
+      <full type="image/png" width="377" height="476">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/25/25815.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="118" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/25/25815.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Settings Dialog for New Style</caption></preview><preview position="1">
+      <full type="image/png" width="377" height="309">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/25/25816.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="183" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/25/25816.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Settings Dialog for Classic Style</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/ru/firefox/addon/extended-statusbar/?src=api</learnmore><install hash="sha256:62fc9bfb3d6f6d5709d5ce911c658066248e55dffe65d8be722391198c0847d5"
+    os="ALL"
+    size="114688">https://addons.mozilla.org/firefox/downloads/file/121581/extended_statusbar-1.5.8-fx.xpi?src=api</install>
+  <developer_comments>Please do not use reviews for support.
+
+If you have any questions, suggestions, ideas or you found a bug, please send an email to extendedstatusbar@gmail.com and I&#39;ll try to help.
+
+If you wish to translate this extension to your language please visit &lt;a href=&#34;http://outgoing.mozilla.org/v1/6b19dff99479bcbd9920ed7d686e61e89e8c6b9f/http%3A//www.babelzilla.org&#34; rel=&#34;nofollow&#34;&gt;www.babelzilla.org&lt;/a&gt;</developer_comments>
+    <reviews num="205">
+      https://addons.mozilla.org/ru/firefox/addon/extended-statusbar/reviews/?src=api
+    </reviews>
+    <total_downloads>2194959</total_downloads>
+    <weekly_downloads>4420</weekly_downloads>
+    <daily_users>82656</daily_users>
+    <created epoch="1131026721">
+      2005-11-03T14:05:21Z
+    </created>
+    <last_updated epoch="1306859401">
+      2011-05-31T16:30:01Z
+    </last_updated>
+    <homepage></homepage>
+    <support></support>
+    <featured>1</featured>
+        <performance>
+      </performance>
+    </addon>
+
+          </searchresults>

@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Local Folding@home Web Control</title>
+
+    <meta http-equiv="pragma" content="no-cache"/>
+    <meta http-equiv="expires" content="-1"/>
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+    <link rel="canonical" href="http://folding.stanford.edu/client/"/>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.js">
+    </script>
+    <link rel="stylesheet"
+          href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/themes/smoothness/jquery-ui.css"/>
+    <script
+       src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js">
+    </script>
+
+    <script src="js/intercom.min.js"></script>
+
+    <script src="https://apis.google.com/js/plusone.js"></script>
+
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <!-- Avoid caching of main Javascript code -->
+    <script type="text/javascript">
+      //<![CDATA[
+        var head = document.getElementsByTagName('head')[0];
+
+        // Dynamically load script to avoid caching
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'js/main.js?nocache=' + Math.random();
+        head.appendChild(script);
+
+        // Dynamically load css to avoid caching
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = 'css/style.css?nocache=' + Math.random();
+        head.appendChild(link);
+      //]]>
+    </script>
+  </head>
+  <body>
+    <div id="header">
+      <div id="report-bug" title="Click here to report a bug">
+        <img alt="Report bug" src="images/report-bug.png"/>
+      </div>
+
+      <div id="plusone">
+        <g:plusone href="http://folding.stanford.edu/" size="medium">
+      </g:plusone></div>
+
+      <div id="fb">
+        <a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ffolding.stanford.edu&amp;t=Share+your+unused+computer+power+to+help+find+a+cure."
+           title="Share on Facebook">
+          <img alt="Share on Facebook" src="images/facebook.png"/>
+        </a>
+      </div>
+
+      <div id="twitter">
+        <a href="https://twitter.com/share?url=http%3A%2F%2Ffolding.stanford.edu&amp;text=Share+your+unused+computer+power+to+help+find+a+cure."
+           title="Share on Twitter">
+          <img alt="Share on Twitter" src="images/twitter.png"/></a>
+      </div>
+
+      <div id="mail">
+        <a href="#" class="mail" title="Share by email">
+          <img alt="Share by email" src="images/mail.png"/>
+        </a>
+      </div>
+    </div>
+
+    <div id="noscript">
+      <div>
+        <h2>Loading. . .</h2>
+        <p>If this page does not disappear after a few seconds then you may need
+          to:</p>
+        <ul>
+          <li>Enable your Folding@home client.</li>
+          <li>Install the Folding@home client.</li>
+          <li>Enable Javascript. <a href="http://enable-javascript.com/">Click
+              here to learn how.</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="tabs">
+      <ul id="tabs-ul">
+        <li><a href="#client"><span>Home</span></a></li>
+        <li><a href="#identity"><span>Identity</span></a></li>
+        <li><a href="#news"><span>News</span></a></li>
+        <li><a href="#help"><span>Help</span></a></li>
+        <li><a href="#about"><span>About</span></a></li>
+      </ul>
+
+      <div id="content" class="ui-widget-content">
+        <div id="client">
+          <div title="" id="power">
+            <div title="" id="power-slider"><div id="power-text"></div></div>
+          </div>
+
+          <table id="info">
+            <tr>
+              <td id="cause" title=
+                  "Choose which disease research you would prefer to support."
+                  >I support
+                <select>
+                  <option value="any">any disease</option>
+                  <option value="alzheimers">Alzheimer's</option>
+                  <option value="cancer">Cancer</option>
+                  <option value="huntingtons">Huntington's</option>
+                  <option value="parkinsons">Parkinson's</option>
+                </select>
+                research.
+              </td>
+              <td id="ppd">Points Per Day: <span></span></td>
+          </table>
+
+          <div id="slots">
+            <table>
+              <tr>
+                <th title="A description of the type of folding slot">Folding
+                  Slot</th>
+                <th title="The current status of this slot">Status</th>
+                <th title="The precent completed"
+                    class="progress">Progress</th>
+                <th title="Estimated time of completion">ETA</th>
+                <th title="An estimate of this work unit's Points Per Day"
+                    >PPD</th>
+                <th title="The work unit's Project, Run, Clone and Generation"
+                    >PRCG</th>
+              </tr>
+            </table>
+          </div>
+
+          <div id="project-tabs"><ul></ul></div>
+        </div>
+
+        <div id="off_help" class="tooltip">
+          <b>Off</b> - Folding is disabled.
+        </div>
+        <div id="idle_light_help" class="tooltip">
+          <b>Idle Light</b> - Your computer will only fold when it has been
+          idle long enough for the Folding@home screensaver to become active.
+          Even then it will operate at a reduced level.  This setting can be
+          useful for laptops which have problems with overheating or fan
+          noise.
+        </div>
+        <div id="idle_help" class="tooltip">
+          <b>Idle</b> - Your computer will only fold when it has been idle
+          long enough for the Folding@home screensaver to become active.
+        </div>
+        <div id="light_help" class="tooltip">
+          <b>Light</b> - Recommended for laptops this setting will minimize
+          the impact of Folding@home at the cost of lower performance.
+        </div>
+        <div id="medium_help" class="tooltip">
+          <b>Medium</b> - A higher performance setting recommended for most
+          users.
+        </div>
+        <div id="full_help" class="tooltip">
+          <b>Full</b> - Contribute as much as possible.  Warning, this
+          setting may cause some machines to get hot or the fan to run very
+          hard. If this is a problem simply move this slider to a lower
+          setting.
+        </div>
+
+        <div id="identity">
+          <h2>Configure your Folding@home identity</h2>
+          <form id="identity-form" method="post" target="_blank" action=
+                "http://fah-web.stanford.edu/cgi-bin/main.py?qtype=userstats">
+            <table>
+              <tr>
+                <th>Name</th>
+                <td><input id="user" name="qname" value="Anonymous"/></td>
+              </tr>
+              <tr><th>Team #</th><td><input id="team" value="0"/></td></tr>
+              <tr>
+                <th>Passkey</th>
+                <td>
+                  <input id="hidden-passkey" type="password" value=""/>
+                  <input id="passkey" type="text" value=""/>
+                </td>
+              </tr>
+            </table>
+            <div id="buttons">
+              <input name="qtype" value="userstats" type="hidden"/>
+              <!--  This is not supported well enough on the server side.
+              <input class="button" type="submit" style="float:left"
+                     value="Validate Name"
+                     title="Check if this name is in use"/>-->
+              <input class="button" id="cancel" type="button" value="Cancel"/>
+              <input class="button" id="save" type="button" value="Save"/>
+            </div>
+          </form>
+
+          <h3>Name</h3>
+          <p>
+            Choosing a name is not required but if you do choose a name,
+            you can earn points for completing units of work.
+            <!-- You can check
+            if a name is already in use by clicking "Validate Name" above. -->
+          </p>
+
+          <h3>Team #</h3>
+          <p>If you have joined a team you should enter your team number
+            above.  This will allow the points you earn to be added to your
+            team's total.  For more information about teams and points see
+            the <a href="http://folding.stanford.edu/English/Stats">Stats
+              Page</a>.</p>
+
+          <h3>Passkey</h3>
+          <p>Passkeys are used to add an extra level of security for those
+            competing for points.  Getting a passkey will also allow you
+            to earn bonus points for completing work early.  For more
+            information or to get a passkey use the following links:
+          </p>
+          <ul>
+            <li><a href="http://folding.stanford.edu/English/FAQ-passkey"
+                   >Passkey - Frequently Asked Questions</a></li>
+            <li>
+              <a href="http://fah-web.stanford.edu/cgi-bin/getpasskey.py"
+                 >Get a Passkey</a></li>
+          </ul>
+        </div>
+
+        <div id="help">
+          <div id="what_is_fah">
+            <div class="title">What is Folding@home?</div>
+            <img alt="Folding@home logo"
+               src="http://folding.stanford.edu/pub/images/FAHLogo-128.png"/>
+            <p>
+              Simply by running this software you are helping scientists
+              study Alzheimer's, Huntington's, and many cancers.
+            </p>
+            <p>
+              You are also participating in the world's most powerful
+              distributed super-computer.
+            </p>
+            <p>
+              People like you, all over the globe, are putting
+              their unused computer time to good use.
+            </p>
+            <p>
+              Scientists at Stanford University and around the world utilize
+              your donated computer time to better understand and develop
+              cures for some of humanity's worst diseases.
+            </p>
+            <p>
+              For more information see the
+              <a href="http://en.wikipedia.org/wiki/Folding@home"
+                 >Folding@home Wikipedia page</a>.
+            </p>
+          </div>
+
+          <div id="what_are_proteins">
+            <div class="title">What are proteins?</div>
+            <img class="right" alt="Protein folding"
+                 src="http://folding.stanford.edu/pub/images/protein-folding.png"/>
+            <p>
+              Proteins are biology's workhorses -- its "nanomachines."
+              Proteins help your body break down food into energy, regulate
+              your moods, and fight disease.
+            </p>
+
+            <p>
+              For more information see the
+              <a href="http://en.wikipedia.org/wiki/Protein"
+                 >Protein Wikipedia page</a>.
+            </p>
+          </div>
+
+          <div id="what_is_folding">
+            <div class="title">What is protein folding?</div>
+            <p>
+              Before proteins can carry out these important functions, they
+              assemble themselves, or "fold."  While protein folding is
+              critical and fundamental to virtually all of biology, much of
+              the process remains a mystery.
+            </p>
+
+            <p>For more information see our
+              <a href='http://folding.stanford.edu/English/Science'>Science
+                page</a> and the
+              <a href="http://en.wikipedia.org/wiki/Protein_folding"
+                 >Protein Folding Wikipedia page</a>.
+            </p>
+          </div>
+
+          <div id="why_it_matters_next">
+            <div class="title">Why does protein folding matter?</div>
+            <img alt="Protein misfolding"
+                 src="http://folding.stanford.edu/pub/images/misfolding.png"/>
+            <p>
+              When proteins do not fold correctly, also known as misfolding,
+              there can be serious health consequences, including many well
+              known diseases, such as Alzheimer's, Mad Cow (BSE), CJD, ALS,
+              Huntington's, Parkinson's disease, and many cancers.
+            </p>
+
+            <p>
+              If we better understand protein misfolding we can design drugs
+              and therapies to combat these illnesses.
+            </p>
+
+            <p>
+              For more information see our
+              <a href="http://folding.stanford.edu/English/FAQ-Diseases"
+                 >Folding@home disease FAQ</a>.
+            </p>
+          </div>
+
+          <div id="affect_of_fah">
+            <div class="title">How will it affect my computer?</div>
+            <p>
+              Once installed, the Folding@home software runs behind the scenes
+              taking advantage of otherwise unused computing time.  Mostly
+              likely you will hardly even notice it.
+            </p>
+            <p>
+              We have yet to receive any reports of Folding@home physically
+              damaging anyone's computer.  On rare occasions, and especially
+              with older laptops, some users have reported video lag,
+              excessive heat or fan noise.  If any of these symptoms occur on
+              your computer simply move the folding power slider down a notch
+              or two.
+            </p>
+          </div>
+
+          <div id='how_to_help'>
+            <div class="title">How can I help more?</div>
+            <img alt="Folding@home logo"
+               src="http://folding.stanford.edu/pub/images/FAHLogo-128.png"/>
+            <p>
+              One of the best ways to help Folding@home is by recruiting your
+              friends and family.
+            </p>
+            <p>
+              You can even start your own team and compete for points.  The
+              more points you and your team earn the closer we come to
+              understanding and solving some of mankind's worst diseases.
+            </p>
+
+            <p>
+              If you would like to make a donation o our non-profit
+              organization please visit the
+              <a href="http://folding.stanford.edu/English/Donate">Donations
+                page</a>.
+            </p>
+          </div>
+
+          <div id="more_help">
+            <div class="title question">Where can I get more help?</div>
+            <div class="answer">
+              <ul>
+                <li>The <a href="http://folding.stanford.edu/English/FAQ"
+                           >Folding@home Frequently Asked Questions page</a>
+                  answers many common questions.</li>
+                <li>The <a href="http://foldingforum.org/">Folding Forum</a>
+                  has a very active community of expert folders who would be
+                  glad to help you with any problems you might have.  It is
+                  also a great place to get more involved.
+                </li>
+                <li>On the
+                  <a href="https://fah-web.stanford.edu/projects/FAHClient/"
+                     >Client Development Project page</a> you can find
+                  technical information about the software, report bugs and
+                  learn about the <a href="https://fah-web.stanford.edu/projects/FAHClient/wiki/ClientRemoteInterface">3rd-party
+                    development API</a>.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div id="news"><h3>Loading. . .</h3>
+          <a href="https://twitter.com/foldingathome"
+             >https://twitter.com/foldingathome</a>
+        </div>
+
+        <div id="about">
+          <h1>Folding@home Client</h1>
+          <h3 id="about-version"></h3>
+          <img alt="Folding@home logo" src="images/fah-logo.png"/>
+          <p>This Web application allows you to monitor and control
+            <a href="http://folding.stanford.edu/"
+               >Folding@home</a> on your computer.</p>
+          <p>Copyright &copy; 2010-2013 Stanford University</p>
+          <p><a href="http://folding.stanford.edu/"
+                >http://folding.stanford.edu/</a></p>
+
+          <div id="credits">
+            <h2>Software Credits</h2>
+            <h3>Project Leader</h3>
+            <div><a href="http://en.wikipedia.org/wiki/Vijay_Pande">Dr.
+                Vijay Pande</a></div>
+            <div><a href="http://www.stanford.edu/">Stanford
+                University</a>
+            </div>
+
+            <h3>Pande Group</h3>
+            <div><a href="http://folding.stanford.edu/Pande/People">
+                Current &amp; Past Members
+            </a></div>
+
+            <h3>v7 Client Developers</h3>
+            <div>Joseph Coffland</div>
+            <div>
+              <a href="http://cauldrondevelopment.com/"
+                 ><img id="cauldron" alt="Cauldron Development LLC"
+                       src="images/cauldron-logo.png"/></a>
+            </div>
+            <div>Kevin Bernhagen</div>
+            <div>Kristina Gogoladze</div>
+
+            <h3>v7 Client Testers</h3>
+            <table>
+              <tr><th>Name</th>
+                <th><a href="http://foldingforum.org">FoldingForum.org</a>
+                  Alias</th></tr>
+              <tr><td>Bruce Borden</td><td>bborden</td></tr>
+              <tr><td>Ivo Sarak</td><td>Ivoshiee</td></tr>
+              <tr><td>Thomas Fourcade</td><td>toTOW</td></tr>
+              <tr><td>Tim Braun</td><td>7im</td></tr>
+              <tr><td>Carl Moudy</td><td>ChelseaOilman</td></tr>
+              <tr><td>Jean Hunter</td><td>susato</td></tr>
+              <tr><td>David Richard</td><td>RipD</td></tr>
+              <tr><td>Charles Richards</td><td>ChasR</td></tr>
+              <tr><td>Mark Turner</td><td>P5-133XL</td></tr>
+              <tr><td>Tim Thomas</td><td>hrsetrdr</td></tr>
+              <tr><td>Andy Van de Walle</td><td>Rum@NoV</td></tr>
+              <tr><td>Erwin Gies</td><td>SandStar</td></tr>
+              <tr><td>Anand Bhat</td><td>AnandBhat</td></tr>
+              <tr><td>Kevin Bernhagen</td><td>calxalot</td></tr>
+              <tr><td>Charles Oliver</td><td>7up1n</td></tr>
+              <tr><td>Syed Mohammad Hussain Abdul Aziz</td>
+                <td>PantherX</td></tr>
+              <tr><td>Jesse Victors</td><td>Jesse_V</td></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="dialogs">
+      <div id="unconfigured">
+        <img alt="Folding@home logo" src="images/fah-logo.png"/>
+        You have not yet configured a Folding@home identity.  An identity
+        is not required but you must configure one in order to earn points.
+      </div>
+
+      <div id="disconnected" title="Folding@home Disconnected">
+        <p>The Folding@home software on your computer has most likely
+          stopped.</p>
+        <p>Please first restart it, then reload this page.</p>
+      </div>
+
+      <div id="reopened" title="Web Control Halted">
+        <p>Folding@home Web Control was reopened in your browser in another
+          window or tab.  This instance has been halted.</p>
+      </div>
+
+      <div id="bug-submitting-dialog"
+           title="Submitting Bug Report.  Please wait. . .">
+        <img alt="Report bug" src="images/report-bug.png"/>
+        <iframe id="bug-iframe" name="bug-iframe"></iframe>
+      </div>
+
+      <div id="bug-dialog" title="Submit a Bug Report">
+        <img alt="Report bug" src="images/report-bug.png"/>
+        <form method="post" target="bug-iframe"
+              action="http://www.stanford.edu/group/pandegroup/cgi-bin/bugreport.php">
+          <table>
+            <tr><th>Name:</th><td><input name="user" readonly="true"/></td></tr>
+            <tr><th>Team:</th><td><input name="team" readonly="true"/></td></tr>
+            <tr><th>Category:</th><td>
+                <select name="category">
+                  <option value="choose">-- Please choose --</option>
+                  <option value="web_control">Advanced Control defect</option>
+                  <option value="cosmetic">Cosmetic defect</option>
+                  <option value="cpu">CPU folding problem</option>
+                  <option value="conectivity">Connectivity issue</option>
+                  <option value="documentation">Documentation</option>
+                  <option value="enhancement">Enhancement request</option>
+                  <option value="gpu">GPU folding problem</option>
+                  <option value="install">Install problem</option>
+                  <option value="overuse">Resources over utilized</option>
+                  <option value="underuse">Resources under utilized</option>
+                  <option value="uninstall">Uninstall problem</option>
+                  <option value="web_control">Web Control defect</option>
+                </select>
+            </td></tr>
+            <tr><th colspan="2" style="text-align:left">Please
+                provide a brief description:</th></tr>
+            <tr><td colspan="2">
+                <textarea name="description" rows="10" maxlength="1024">
+                </textarea>
+            </td></tr>
+          </table>
+          <input name="ts" type="hidden"/>
+          <input name="log" type="hidden"/>
+        </form>
+        <div id="bug-disclaimer">
+          <p>
+            <b>Disclaimer:</b> When you submit this form your
+            Folding@home user name, team, all or portions of the log
+            files produced by the Folding@home software and all the
+            information you provide in this form will be stored
+            indefinitely on servers at Stanford University.  Your IP
+            address will be logged but not made public.  <b>Do not
+            include passwords, copyrighted material or any other
+              information which you do not want to be made public.
+            </b>
+          </p>
+          <p>
+            By submitting this form you acknowledge that you are
+            making said information publicly available on the Internet
+            and agree to let Stanford, it's partners and members of
+            foldingforum.org use said information for the purpose of
+            improving the Folding@home software.  The collected
+            information will not be used for advertising or tracking
+            your activity.  If you do not agree with these terms
+            please do not submit this forum and instead press the
+            Cancel button now.
+          </p>
+        </div>
+        <div id="browser-warn">
+          <p>
+            This Web browser may not fully support all the features need by
+            Folding@home.  If you experience problems please upgrade to the
+            listed version or newer of one of the following browsers:
+          </p>
+          <ul>
+            <li><a href="http://google.com/chrome/">Chrome</a> 23+</li>
+            <li><a href="http://mozilla.org/">Firefox</a> 16+</li>
+            <li><a href="http://apple.com/safari/">Safari</a> 5.1+</li>
+            <li><a href="http://microsoft.com/ie/">Internet Explorer</a> 9+</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+  <head>
+    <!-- Some buggy versions of IE need this down here as well -->
+    <meta http-equiv="pragma" content="no-cache"/>
+    <meta http-equiv="expires" content="-1"/>
+  </head>
+</html>
