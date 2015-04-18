@@ -1,0 +1,31 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "icons/button.png",
+      "default_title": "2GIS for Browsers"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "includes/content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://maps.googleapis.com https://maps.gstatic.com https://www.google-analytics.com https://maps.api.2gis.ru; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_info_description__",
+   "homepage_url": "http://2gis.ru",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/button.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAk4eqgLFzB2nH1ln20X42L9/V7hdGSi5l1Wb7mB2b7PHxnm374h33qxpHfYF4qubaTCf3goQ/m/yAx8WNEHUvJNiC2cu/eUkGegC4LKa3BISsTMHt1ju2dVVrDXeH8pRpHwxVSeA6UKwUGXlqcfnOcBM00TZdGbFeR8j8vfZl/gSRjXAi5jxVTBNnS4ELUU8RxYmMXrxIvn98SefUv8EJ719WNP90y3WZiZYqjVUtRXCVQ+72lSuirgk0KJT9a6AQbIqiMOViiR9hXaa6y5D2jCF6O6VkVHU65M/6I1ZBpYSLrdjJ+kWjXky5vGhoTkc2J2/GsEE1dzfDx/+RDsdP9QIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_info_name__",
+   "permissions": [ "tabs", "http://*/*", "https://*/*", "contextMenus", "webNavigation", "notifications", "cookies", "webRequest", "geolocation" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.4.1.126",
+   "web_accessible_resources": [ "res/*", "templates/empty.html", "js/background/services/google-analytics-service.js" ]
+}

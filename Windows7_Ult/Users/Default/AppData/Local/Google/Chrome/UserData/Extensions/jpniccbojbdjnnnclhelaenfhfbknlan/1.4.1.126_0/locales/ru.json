@@ -1,0 +1,121 @@
+{
+    "__lang__": "ru",
+    "__p2d-buttons-layout": "full",
+    "__welcome_page_link": "http://apps.2gis.ru/installed",
+    "__DATETIME_FORMAT__": "dd.mm.yy, HH:MM",
+
+    "::Extension info:::::::::::::::::::::": "",
+
+    "__info_name__": "2GIS",
+    "__info_description__": "Контакты, отзывы о фирмах и быстрые звонки с любой страницы в интернете.",
+
+    "::Button tooltip text:::::::::::::::::::::": "",
+
+    "__cant_get_location": "Не удалось определить местоположение.",
+    "__cant_find_business_data": "Не удалось определить компанию.",
+    "__loading_data": "Загрузка данных...",
+    "__getting_location": "Получение текущего местоположения...",
+    "__click_for_details": "2GIS — нажмите, чтобы узнать подробности.",
+
+    "::P2D:::::::::::::::::::::": "",
+
+    "__wrong_pin": "Пин-код указан неверно",
+    "__link_your_phone": "Привяжите телефон",
+    "__service_unavailable": "Сервис недоступен",
+    "__pin_gen_error": "Ошибка при отправке PIN",
+    "__p2d_error": "Ошибка при отправке запроса Push2Dial",
+    "__2gis_for_{browsername}": "2GIS для {browsername}",
+    "__dialing": "Звонок в ...",
+    "__phone_number_{phone}": "Телефон {phone}",
+
+    "::Dates::::::::::::::::::::": "",
+
+    "__sunday"      : "Воскресенье",
+    "__monday"      : "Понедельник",
+    "__tuesday"     : "Вторник",
+    "__wednesday"   : "Среда",
+    "__thursday"    : "Четверг",
+    "__friday"      : "Пятница",
+    "__saturday"    : "Суббота",
+    "__sun"         : "Вск",
+    "__mon"         : "Пон",
+    "__tue"         : "Втр",
+    "__wed"         : "Срд",
+    "__thu"         : "Чтв",
+    "__fri"         : "Птн",
+    "__sat"         : "Сбт",
+
+    "::Short schedule description:::::::::::::": "",
+
+    "__today_day_off": "Сегодня: выходной",
+    "__now_closed": "Сейчас закрыто",
+    "__twenty_four_seven": "Круглосуточно",
+    "__now_open": "Сейчас открыто",
+    "__today_working_{fromTime}_{toTime}": "Сегодня: {fromTime} — {toTime}",
+    "__today_working_{fromTime}_{toTime}_with_lunch_{lunchFromTime}_{lunchToTime}": "Сегодня: {fromTime} — {toTime} Обед: {lunchFromTime} — {lunchToTime}",
+
+    "::Short schedule description in popup:::::::::::::": "",
+
+    "__weekdays": "Будние дни",
+    "__everyday": "Ежедневно",
+    "__day_off_embraced": "[Выходной]",
+    "__twenty_four_seven_embraced": "[Круглосуточно]",
+    "__today_working_{fromTime}_{toTime}_embraced": "[{fromTime} — {toTime}]",
+    "__today_working_{fromTime}_{toTime}_with_lunch_{lunchFromTime}_{lunchToTime}_embraced": "[{fromTime} — {toTime}], обед [{lunchFromTime} — {lunchToTime}]",
+
+    "::Reviews:::::::::::::::::::": "",
+
+    "__read_more": "Читать дальше",
+    "__rollup": "Свернуть",
+    "__reviews": "Отзывы",
+    "__more_reviews": "Еще отзывы",
+    "__read_all_reviews_{count}": "Смотреть все отзывы ({count})",
+
+    "::Main popup content::::::::::::::::": "",
+
+    "__distance_from_your_{address}": "Расстояние до фирмы от вашего местоположения ({address})",
+    "__distance_from_your_address": "Расстояние до фирмы от вашего местоположения",
+    "__km": "км",
+    "__mi": "mi",
+    "__route_here": "Путь сюда",
+    "__from_here": "отсюда",
+    "__source_2gis_{rootdomain}": "Источник: <a data-ga-invoke='_TBSourceClick' href=\"http://{rootdomain}/?utm_source=toolbar&utm_medium=source&utm_campaign=extension\">2GIS</a>",
+    "__source_google": "Источник: <a data-ga-invoke='_TBSourceClick' data-rubric='{rubricName}' href=\"http://maps.google.com/\">Google Maps</a>",
+
+    "__total_{reviews}": "Всего {reviews}",
+    "__shown_{reviews}_of_{reviewsTotal}_singular": "Показан {reviews} из {reviewsTotal}",
+    "__shown_{reviews}_of_{reviewsTotal}_plural": "Показано {reviews} из {reviewsTotal}",
+    "__{recommendations}_singular": "{recommendations} рекомендация",
+    "__{recommendations}_plural_1": "{recommendations} рекомендации",
+    "__{recommendations}_plural_2": "{recommendations} рекомендаций",
+    "__more_{filials}_singular": "Еще {filials} филиал",
+    "__more_{filials}_plural_1": "Еще {filials} филиала",
+    "__more_{filials}_plural_2": "Еще {filials} филиалов",
+    "__other_{firms}_in_{rubric}_singular": "{firms} другая организация рубрики {rubric}",
+    "__other_{firms}_in_{rubric}_plural_1": "{firms} другие организации рубрики {rubric}",
+    "__other_{firms}_in_{rubric}_plural_2": "{firms} других организаций рубрики {rubric}",
+
+    "__dialing_to_{number}": "Звонок на номер {number}...",
+    "__dialing_to_{firmName}": "Звонок в \"{firmName}\"",
+    "__dial": "Позвонить",
+    "__get_more_at_{source}": "Подробнее о компании в {source}",
+
+    "::P2D Popup:::::::::::::::": "",
+
+    "__click_to_call": "Звонок в один клик",
+    "__instant_call_on_your_smartphone": "Мгновенный набор номера на вашем мобильном",
+    "__call_in_2_steps_description": "Вы можете набирать номер телефона, кликая по нему в браузере. Для этого выполните два простых шага.",
+    "__install_dialer_or_2gis": "Установите мобильный 2ГИС или 2GIS Dialer на ваш смартфон",
+    "__open_the_app": "Перейдите на экран привязки устройств.",
+    "__link_phone": "Привязать телефон",
+    "__enter_pin": "Введите появившийся пин-код",
+    "__your_phone_is_linked": "Ваш телефон привязан. Теперь вы можете звонить в один клик прямо из браузера.",
+    "__check_it_out": "Ура, можно попробовать!",
+
+    "::Firefox prompt::::::::::::": "",
+
+    "__share_location": "Определение местоположения",
+    "__always_allow_geolocation": "Всегда разрешать",
+    "__never_allow_geolocation": "Никогда не разрешать",
+    "__addon_wants_to_know_your_geolocation": "Расширению 2GIS требуются данные о вашем местоположении."
+}

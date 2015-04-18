@@ -1,0 +1,121 @@
+{
+    "__lang__": "cs",
+    "__p2d-buttons-layout": "full",
+    "__welcome_page_link": "http://apps.2gis.cz/installed",
+    "__DATETIME_FORMAT__": "dd.mm.yy, HH:MM",
+
+    "::Extension info:::::::::::::::::::::": "",
+
+    "__info_name__": "2GIS",
+    "__info_description__": "Kontakty, recenze na organizace a volání ze kterékoli stránky na internetu.",
+
+    "::Button tooltip text:::::::::::::::::::::": "",
+
+    "__cant_get_location": "Nepodařilo se určit polohu.",
+    "__cant_find_business_data": "Nepodařilo se najít organizaci.",
+    "__loading_data": "Nahrávání dat...",
+    "__getting_location": "Zjišťování polohy...",
+    "__click_for_details": "2GIS — klikněte a zjistěte podrobnosti.",
+
+    "::P2D:::::::::::::::::::::": "",
+
+    "__wrong_pin": "PIN kód nebyl zadán správně",
+    "__link_your_phone": "Spojte telefon",
+    "__service_unavailable": "Služba není přístupná",
+    "__pin_gen_error": "Chyba při odeslání PIN",
+    "__p2d_error": "Chyba při odesílání dotazu Push2Dial",
+    "__2gis_for_{browsername}": "2GIS pro {browsername}",
+    "__dialing": "Voláme do ...",
+    "__phone_number_{phone}": "Telefonní číslo {phone}",
+
+    "::Dates::::::::::::::::::::": "",
+
+    "__sunday"      : "Neděle",
+    "__monday"      : "Pondělí",
+    "__tuesday"     : "Úterý",
+    "__wednesday"   : "Středa",
+    "__thursday"    : "Čtvrtek",
+    "__friday"      : "Pátek",
+    "__saturday"    : "Sobota",
+    "__sun"         : "Ne",
+    "__mon"         : "Po",
+    "__tue"         : "Út",
+    "__wed"         : "St",
+    "__thu"         : "Čt",
+    "__fri"         : "Pá",
+    "__sat"         : "So",
+
+    "::Short schedule description:::::::::::::": "",
+
+    "__today_day_off": "Dnes: zavřeno",
+    "__now_closed": "Teď zavřeno",
+    "__twenty_four_seven": "24/7",
+    "__now_open": "Teď otevřeno",
+    "__today_working_{fromTime}_{toTime}": "Dnes: {fromTime} — {toTime}",
+    "__today_working_{fromTime}_{toTime}_with_lunch_{lunchFromTime}_{lunchToTime}": "Dnes: {fromTime} — {toTime} Přestávka: {lunchFromTime} — {lunchToTime}",
+
+    "::Short schedule description in popup:::::::::::::": "",
+
+    "__weekdays": "Všední dny",
+    "__everyday": "Denně",
+    "__day_off_embraced": "[Zavřeno]",
+    "__twenty_four_seven_embraced": "[24/7]",
+    "__today_working_{fromTime}_{toTime}_embraced": "[{fromTime} — {toTime}]",
+    "__today_working_{fromTime}_{toTime}_with_lunch_{lunchFromTime}_{lunchToTime}_embraced": "[{fromTime} — {toTime}], přestávka [{lunchFromTime} — {lunchToTime}]",
+
+    "::Reviews:::::::::::::::::::": "",
+
+    "__read_more": "Číst více",
+    "__rollup": "Minimalizovat",
+    "__reviews": "Recenze",
+    "__more_reviews": "Další recenze",
+    "__read_all_reviews_{count}": "Všechny recenze ({count})",
+
+    "::Main popup content::::::::::::::::": "",
+
+    "__distance_from_your_{address}": "Vzdálenost od organizace do místa vaší polohy ({address})",
+    "__distance_from_your_address": "Vzdálenost od organizace do místa vaší polohy",
+    "__km": "km",
+    "__mi": "mi",
+    "__route_here": "Trasa sem",
+    "__from_here": "odsud",
+    "__source_2gis_{rootdomain}": "Zdroj: <a data-ga-invoke='_TBSourceClick' href=\"http://{rootdomain}/?utm_source=toolbar&utm_medium=source&utm_campaign=extension\">2GIS</a>",
+    "__source_google": "Zdroj: <a data-ga-invoke='_TBSourceClick' data-rubric='{rubricName}' href=\"http://maps.google.com/\">Google Maps</a>",
+
+    "__total_{reviews}": "Celkem {reviews}",
+    "__shown_{reviews}_of_{reviewsTotal}_singular": "Zobrazena {reviews} z {reviewsTotal}",
+    "__shown_{reviews}_of_{reviewsTotal}_plural": "Zobrazeno {reviews} z {reviewsTotal}",
+    "__{recommendations}_singular": "{recommendations} doporučení",
+    "__{recommendations}_plural_1": "{recommendations} doporučení",
+    "__{recommendations}_plural_2": "{recommendations} doporučení",
+    "__more_{filials}_singular": "Ještě {filials} pobočka",
+    "__more_{filials}_plural_1": "Ještě {filials} pobočky",
+    "__more_{filials}_plural_2": "Ještě {filials} poboček",
+    "__other_{firms}_in_{rubric}_singular": "{firms} jiná organizace v rubrice {rubric}",
+    "__other_{firms}_in_{rubric}_plural_1": "{firms} jiné organizace v rubrice {rubric}",
+    "__other_{firms}_in_{rubric}_plural_2": "{firms} jiných organizací v rubrice {rubric}",
+
+    "__dialing_to_{number}": "Zavolat na {number}...",
+    "__dialing_to_{firmName}": "Zavolat na \"{firmName}\"",
+    "__dial": "Zavolat",
+    "__get_more_at_{source}": "Více o organizaci v {source}",
+
+    "::P2D Popup:::::::::::::::": "",
+
+    "__click_to_call": "Zavolat jedním kliknutím",
+    "__instant_call_on_your_smartphone": "Okamžité vytočení čísla na Vašem mobilním telefonu",
+    "__call_in_2_steps_description": "Můžete volat kliknutím na telefonním čísle v prohlížeči. Stačí jen dva jednoduché kroky.",
+    "__install_dialer_or_2gis": "Nainstalujte mobilní aplikace 2GIS nebo 2GIS Dialer na váš chytrý telefon",
+    "__open_the_app": "Přejděte na kartu spojení zařízení.",
+    "__link_phone": "Spojit s telefonem",
+    "__enter_pin": "Zadejte PIN kód",
+    "__your_phone_is_linked": "Váš telefon je spojen. Teď můžete volat jedním kliknutím rovnou z prohlížeče.",
+    "__check_it_out": "Hurá, můžeme to zkusit!",
+
+    "::Firefox prompt::::::::::::": "",
+
+    "__share_location": "Zjišťování polohy",
+    "__always_allow_geolocation": "Vždy povolovat",
+    "__never_allow_geolocation": "Nikdy nepovolovat",
+    "__addon_wants_to_know_your_geolocation": "Rozšíření 2GIS potřebuje data o vaší poloze."
+}

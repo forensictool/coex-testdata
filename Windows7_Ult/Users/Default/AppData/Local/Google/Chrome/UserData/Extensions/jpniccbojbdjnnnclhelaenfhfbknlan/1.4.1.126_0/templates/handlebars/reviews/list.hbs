@@ -1,0 +1,28 @@
+{{#each data.reviews.flampReviews}}
+{{! this = review}}
+    <div class="comment rating-{{this.reviewRating}}">
+        {{#if this.reviewAuthorProfileUrl}}
+            <a target="_blank" class="author"
+               href="{{this.reviewAuthorProfileUrl}}">{{this.reviewAuthor}}</a>
+        {{else}}
+            <span class="author">{{this.reviewAuthor}}</span>
+        {{/if}}
+        <div class="top">
+            <div class="stars">
+                {{#repeat this.reviewRating}}
+                    <span class="star active"></span>
+                {{/repeat}}
+                {{#repeat (ar 5 '-' this.reviewRating) }}
+                    <span class="star"></span>
+                {{/repeat}}
+            </div>
+            <div class="date">{{this.reviewDateTime}}</div>
+        </div>
+        <div class="message js-message">
+            <div class="height js-height">
+                <div class="js-wrapper">{{this.reviewText}}</div>
+            </div>
+            <a class="more js-more" href="javascript:;">{{loc '__read_more'}}</a>
+        </div>
+    </div>
+{{/each}}

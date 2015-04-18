@@ -1,0 +1,65 @@
+<div class="_gis-p2d-form js_gis-p2d-form" style="">
+    <div class="_gis-p2d-close js_gis-p2d-close"></div>
+    <div class="_gis-p2d-header">
+        <div class="_gis-p2d-h1">{{loc '__click_to_call'}}</div>
+        <div class="_gis-p2d-form-step1">{{loc '__instant_call_on_your_smartphone'}}</div>
+    </div>
+    <div class="_gis-p2d-body _gis-p2d-form-step1 _gis-p2d-{{loc '__lang__'}}">
+        <div class="_gis-p2d-desc">{{loc '__call_in_2_steps_description'}}</div>
+        <dl>
+            <dt><i class="first"></i>{{loc '__install_dialer_or_2gis'}}</dt>
+            <dd>
+                <div>
+                    {{#locCond '__p2d-buttons-layout' '==' 'full'}}
+                        <a href="http://ad.apps.fm/sXuVkpiWjZNe_8evMMskul5KLoEjTszcQMJsV6-2VnHFDLXitVHB6BlL95nuoNYfOpWTdDJOiqUWrNlyPerVT15CJQrDqOpiSSt4L1MzILz7mngc6xgMqEknxKWBUqZM"
+                           data-ga-invoke="_P2DDialerDownload"
+                           class="dialer-download-button js_gis-button-p2d"
+                           target="_blank"><i class="_gis-icon-gisdialer"></i></a>
+                        <a href="https://play.google.com/store/apps/details?id=ru.dublgis.dgismobile&utm_source=2gisforbrowsers&utm_medium=link&utm_campaign=android"
+                           data-ga-invoke="_P2D2GisAndroidDownload"
+                           class="gis-download-button js_gis-button-p2d"
+                           target="_blank"><i class="_gis-icon-googleplay"></i>Google play</a>
+                        <a href="http://itunes.apple.com/ru/app/2gis/id481627348?mt=8"
+                           data-ga-invoke="_P2D2GisIosDownload"
+                           class="gis-download-button js_gis-button-p2d"
+                           target="_blank"><i class="_gis-icon-appstore"></i>App Store</a>
+                        <div class="clearfix"></div>
+                    {{/locCond}}
+                    {{#locCond '__p2d-buttons-layout' '==' 'only-dialer'}}
+                        <a href="http://ad.apps.fm/sXuVkpiWjZNe_8evMMskul5KLoEjTszcQMJsV6-2VnHFDLXitVHB6BlL95nuoNYfOpWTdDJOiqUWrNlyPerVT15CJQrDqOpiSSt4L1MzILz7mngc6xgMqEknxKWBUqZM"
+                           data-ga-invoke="_P2DDialerDownload"
+                           class="dialer-download-button dialer-download-button-single js_gis-button-p2ds"
+                           target="_blank"><i class="_gis-icon-gisdialer"></i></a>
+                        <div class="clearfix"></div>
+                    {{/locCond}}
+                </div>
+            </dd>
+            <dt><i class="second"></i>{{loc '__open_the_app'}}</dt>
+            <dd>
+                <form id="gis-p2d-form" class="">
+                    <div>
+                        <input type="text" name="pin[0]" value="" />
+                        <input type="text" name="pin[1]" value="" />
+                        <input type="text" name="pin[2]" value="" />
+                        <input type="text" name="pin[3]" value="" />
+                        <input type="text" name="pin[4]" value="" />
+                        <input type="submit" value="{{loc '__link_phone'}}" class="_gis-p2d-submit" data-ga-invoke="_P2DConnectDevice" />
+                    </div>
+                    <div class="_gis-p2d-form-info">{{loc '__enter_pin'}}</div>
+                </form>
+            </dd>
+        </dl>
+    </div>
+    <div class="_gis-p2d-body _gis-p2d-form-step2 _gis-p2d-{{loc '__lang__'}}">
+        <div>{{loc '__your_phone_is_linked'}}</div>
+        <input type="submit" value="{{loc '__check_it_out'}}" class="_gis-p2d-submit js_gis-p2d-call" />
+        <div class="_gis-loader">
+            <div class="loader241">
+                <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDI0IDI0IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnIGlkPSJfeDMxXzM1Ij4NCgk8Zz4NCgkJPHBhdGggZmlsbD0iIzBEQTVENSIgZD0iTTE4LjU2NSw3LjQzNUMxOS40NjcsOC43MywyMCwxMC4zMDIsMjAsMTJjMCw0LjQxOC0zLjU4Miw4LTgsOHMtOC0zLjU4Mi04LTgNCgkJCWMwLTEuNjk4LDAuNTMzLTMuMjcsMS40MzUtNC41NjVMMi41ODEsNC41ODFDMC45NjksNi42MjMsMCw5LjE5NiwwLDEyYzAsNi42MjcsNS4zNzMsMTIsMTIsMTJzMTItNS4zNzMsMTItMTINCgkJCWMwLTIuODA0LTAuOTY5LTUuMzc3LTIuNTgxLTcuNDE5TDE4LjU2NSw3LjQzNXoiLz4NCgk8L2c+DQo8L2c+DQo8ZyBpZD0iX3gzNF81Ij4NCgk8Zz4NCgkJPHBhdGggZmlsbD0iI0E2Q0QyQSIgZD0iTTEyLDBDOC42ODYsMCw1LjY4NiwxLjM0MywzLjUxNSwzLjUxNWwyLjgyOCwyLjgyOEM3Ljc5MSw0Ljg5NSw5Ljc5MSw0LDEyLDQNCgkJCWMyLjIwOSwwLDQuMjA5LDAuODk1LDUuNjU3LDIuMzQzbDIuODI4LTIuODI4QzE4LjMxNCwxLjM0MywxNS4zMTQsMCwxMiwweiIvPg0KCTwvZz4NCjwvZz4NCjwvc3ZnPg0K" />
+            </div>
+            <div class="loader242">
+                <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iMTJweCIgaGVpZ2h0PSIxMnB4IiB2aWV3Qm94PSIwIDAgMTIgMTIiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDEyIDEyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnIGlkPSJfeDMxXzM1Ij4NCgk8Zz4NCgkJPHBhdGggZmlsbD0iI0E2Q0QyQSIgZD0iTTguODYsNS4xNEM4Ljk0Miw1LjQxNCw5LDUuNjk5LDksNmMwLDEuNjU3LTEuMzQzLDMtMywzUzMsNy42NTcsMyw2YzAtMC4zMDEsMC4wNTgtMC41ODYsMC4xNC0wLjg2DQoJCQlMMC44ODEsMi44ODFDMC4zMjYsMy43OTEsMCw0Ljg1NiwwLDZjMCwzLjMxNCwyLjY4Niw2LDYsNnM2LTIuNjg2LDYtNmMwLTEuMTQ0LTAuMzI2LTIuMjA5LTAuODgxLTMuMTE5TDguODYsNS4xNHoiLz4NCgk8L2c+DQo8L2c+DQo8ZyBpZD0iX3gzNF81Ij4NCgk8Zz4NCgkJPHBhdGggZmlsbD0iIzBEQTVENSIgZD0iTTYsMEM0LjM0MywwLDIuODQzLDAuNjcyLDEuNzU3LDEuNzU3bDIuMTIxLDIuMTIxQzQuNDIyLDMuMzM2LDUuMTcyLDMsNiwzczEuNTc4LDAuMzM2LDIuMTIxLDAuODc5DQoJCQlsMi4xMjEtMi4xMjFDOS4xNTcsMC42NzIsNy42NTcsMCw2LDB6Ii8+DQoJPC9nPg0KPC9nPg0KPC9zdmc+DQo=" />
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,29 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "css": [ "vk-download_styles.css" ],
+      "js": [ "jquery_min.js", "contentscript.js" ],
+      "matches": [ "https://vk.com/*", "http://vk.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "addon.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_idle"
+   } ],
+   "description": "Modifies pages with audio(eg. 'My music', 'Suggested music', 'Popular' etc) so you can download files directly from the web page.",
+   "icons": {
+      "128": "download128.png",
+      "16": "download-icon.png",
+      "48": "download48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1nimdw6mBo4NhBZjaDLY139j1ATy3zsDt1wPcM3k7ZovG8PUyKyWgcDXH3f4A/mXVYzDs/0MWIoP5Ek7+DeDfGlIYZV82qg0jyy1BPXOKO4pp2kuMsgilPuqPEj1tSzVzW2zBudzvHAnU7HdaHKISnw3GY83fBYx0RlonU8Ai1z8z6e9I7WUsj1IarVTwvPpJEKnsvWmAE8fzhsrpiklK1hwpdMLxXUTlwcbqLtg5MGHb0qqaqbHP6qbr5HU4qh1n+/9qr9D0sGT+cCy5FA1mLAQJMPQfVlUyBd6AO0BiZ+vMWZDz7iWMicjVz/zrQJf4zUApMGvD3kpKFFGeI/eZwIDAQAB",
+   "manifest_version": 2,
+   "name": "VK Music Downloader",
+   "permissions": [ "https://vk.com/*", "http://vk.com/*" ],
+   "short_name": "VK Music Downloader",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1",
+   "web_accessible_resources": [ "download-icon.png" ]
+}

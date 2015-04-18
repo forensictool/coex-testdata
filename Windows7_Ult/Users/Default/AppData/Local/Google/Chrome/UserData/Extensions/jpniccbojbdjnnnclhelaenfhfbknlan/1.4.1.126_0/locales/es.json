@@ -1,0 +1,121 @@
+{
+    "__lang__": "es",
+    "__p2d-buttons-layout": "full",
+    "__welcome_page_link": "http://apps.2gis.cl/installed",
+    "__DATETIME_FORMAT__": "dd.mm.yy, HH:MM",
+
+    "::Extension info:::::::::::::::::::::": "",
+
+    "__info_name__": "2GIS",
+    "__info_description__": "Contactos, comentarios sobre las empresas y llamadas rápidas desde cualquier página Web en Internet.",
+
+    "::Button tooltip text:::::::::::::::::::::": "",
+
+    "__cant_get_location": "No se ha podido determinar la ubicación.",
+    "__cant_find_business_data": "No se ha podido determinar la empresa.",
+    "__loading_data": "Descargando datos...",
+    "__getting_location": "Localizando la ubicación actual...",
+    "__click_for_details": "2GIS: haga clic para obtener más información.",
+
+    "::P2D:::::::::::::::::::::": "",
+
+    "__wrong_pin": "Código PIN indicado no es válido",
+    "__link_your_phone": "Enlace el teléfono",
+    "__service_unavailable": "Servicio no disponible",
+    "__pin_gen_error": "Error al enviar el PIN",
+    "__p2d_error": "Error al enviar la solicitud Push2Dial",
+    "__2gis_for_{browsername}": "2GIS para {browsername}",
+    "__dialing": "Llamando a...",
+    "__phone_number_{phone}": "Teléfono {phone}",
+
+    "::Dates::::::::::::::::::::": "",
+
+    "__sunday"      : "Domingo",
+    "__monday"      : "Lunes",
+    "__tuesday"     : "Martes",
+    "__wednesday"   : "Miércoles",
+    "__thursday"    : "Jueves",
+    "__friday"      : "Viernes",
+    "__saturday"    : "Sábado",
+    "__sun"         : "Do",
+    "__mon"         : "Lu",
+    "__tue"         : "Ma",
+    "__wed"         : "Mi",
+    "__thu"         : "Ju",
+    "__fri"         : "Vi",
+    "__sat"         : "Sá",
+
+    "::Short schedule description:::::::::::::": "",
+
+    "__today_day_off": "Hoy: Cerrado",
+    "__now_closed": "Cerrado en este momento",
+    "__twenty_four_seven": "24 horas",
+    "__now_open": "Abierto en este momento",
+    "__today_working_{fromTime}_{toTime}": "Hoy: {fromTime} — {toTime}",
+    "__today_working_{fromTime}_{toTime}_with_lunch_{lunchFromTime}_{lunchToTime}": "Hoy: {fromTime} — {toTime} H. colación: {lunchFromTime} — {lunchToTime}",
+
+    "::Short schedule description in popup:::::::::::::": "",
+
+    "__weekdays": "De Lunes a Viernes",
+    "__everyday": "Diariamente",
+    "__day_off_embraced": "[Cerrado]",
+    "__twenty_four_seven_embraced": "[24 horas]",
+    "__today_working_{fromTime}_{toTime}_embraced": "[{fromTime} — {toTime}]",
+    "__today_working_{fromTime}_{toTime}_with_lunch_{lunchFromTime}_{lunchToTime}_embraced": "[{fromTime} — {toTime}], h. colación [{lunchFromTime} — {lunchToTime}]",
+
+    "::Reviews:::::::::::::::::::": "",
+
+    "__read_more": "Leer más",
+    "__rollup": "Minimizar",
+    "__reviews": "Comentarios",
+    "__more_reviews": "Más comentarios",
+    "__read_all_reviews_{count}": "Ver todos los comentarios ({count})",
+
+    "::Main popup content::::::::::::::::": "",
+
+    "__distance_from_your_{address}": "Distancia hasta la empresa desde su ubicación ({address})",
+    "__distance_from_your_address": "Distancia desde su ubicación hasta la empresa",
+    "__km": "km",
+    "__mi": "mi",
+    "__route_here": "Ruta hasta aquí",
+    "__from_here": "desde aquí",
+    "__source_2gis_{rootdomain}": "Fuente: <a data-ga-invoke='_TBSourceClick' href=\"http://{rootdomain}/?utm_source=toolbar&utm_medium=source&utm_campaign=extension\">2GIS</a>",
+    "__source_google": "Fuente: <a data-ga-invoke='_TBSourceClick' data-rubric='{rubricName}' href=\"http://maps.google.com/\">Google Maps</a>",
+
+    "__total_{reviews}": "En total {reviews}",
+    "__shown_{reviews}_of_{reviewsTotal}_singular": "Mostrado {reviews} de {reviewsTotal}",
+    "__shown_{reviews}_of_{reviewsTotal}_plural": "Mostrados {reviews} de {reviewsTotal}",
+    "__{recommendations}_singular": "{recommendations} recomendación",
+    "__{recommendations}_plural_1": "{recommendations} recomendaciones",
+    "__{recommendations}_plural_2": "{recommendations} recomendaciones",
+    "__more_{filials}_singular": "{filials} sucursal más",
+    "__more_{filials}_plural_1": "{filials} sucursales más",
+    "__more_{filials}_plural_2": "{filials} sucursales más",
+    "__other_{firms}_in_{rubric}_singular": "{firms} otra empresa de la categoría {rubric}",
+    "__other_{firms}_in_{rubric}_plural_1": "{firms} otras empresas de la categoría {rubric}",
+    "__other_{firms}_in_{rubric}_plural_2": "{firms} otras empresas de la categoría {rubric}",
+
+    "__dialing_to_{number}": "Llamando al teléfono {number}...",
+    "__dialing_to_{firmName}": "Llamada a \"{firmName}\"",
+    "__dial": "Llamar",
+    "__get_more_at_{source}": "Más información sobre la empresa en {source}",
+
+    "::P2D Popup:::::::::::::::": "",
+
+    "__click_to_call": "Llamada en un solo clic",
+    "__instant_call_on_your_smartphone": "Marcado instantáneo desde su teléfono móvil",
+    "__call_in_2_steps_description": "Puede marcar un número haciendo clic sobre él en el navegador. Para hacerlo, realice 2 simples pasos:",
+    "__install_dialer_or_2gis": "Instalar 2GIS móvil o 2GIS Dialer en su Smartphone",
+    "__open_the_app": "Ir a la pantalla de enlace del dispositivo",
+    "__link_phone": "Enlazar teléfono",
+    "__enter_pin": "Introduzca este código PIN",
+    "__your_phone_is_linked": "Su teléfono está enlazado. Puede llamar directamente con un solo clic desde el navegador.",
+    "__check_it_out": "¡Bien, ya puede probarlo!",
+
+    "::Firefox prompt::::::::::::": "",
+
+    "__share_location": "Determinar la ubicación",
+    "__always_allow_geolocation": "Permitir siempre",
+    "__never_allow_geolocation": "No permitir nunca",
+    "__addon_wants_to_know_your_geolocation": "La extensión de 2GIS necesita datos sobre su ubicación."
+}

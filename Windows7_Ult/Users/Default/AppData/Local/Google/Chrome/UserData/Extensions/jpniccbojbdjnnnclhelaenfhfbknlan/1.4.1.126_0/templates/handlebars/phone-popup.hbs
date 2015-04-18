@@ -1,0 +1,163 @@
+<div data-ph-parsed="true" class="_gis-phone-highlight-widget{{#if firmData._woResult}} _gis-simple-widget{{/if}}{{#locCond '__lang__' '==' 'en'}} _gis-widget-layout-en{{/locCond}}" {{#if firmData._woResult}}data-wo-result="y"{{/if}}>
+    {{#unless firmData._woResult}}
+        <div data-ph-parsed="true" class="_gis-phone-highlight-w-close js_gis-phone-highlight-close"></div>
+        <div data-ph-parsed="true" class="_gis-phone-highlight-header">
+            <div data-ph-parsed="true" class="_gis-phone-highlight-title">
+                {{#if firmData.firmBigMapLink}}
+                    <a data-ph-parsed="true" target="_blank" href="{{firmData.firmBigMapLink}}" data-reg-bc-url="{{firmData.reg_bc_url}}">
+                {{/if}}
+                    {{#if firmData.firmNameParts.primary}}
+                        {{firmData.firmNameParts.primary}}
+                    {{else}}
+                        {{firmData.firmName}}
+                    {{/if}}
+                    {{#if firmData.firmNameParts.extension}}
+                        <div data-ph-parsed="true">{{firmData.firmNameParts.extension}}</div>
+                    {{/if}}
+                {{#if firmData.firmBigMapLink}}
+                    </a>
+                {{/if}}
+            </div>
+
+            {{#if firmData.reviews}}
+            <div data-ph-parsed="true" class="_gis-rating">
+                <div data-ph-parsed="true" class="_gis-comments">
+                    {{#if firmData.firmFlampRating}}
+                        <div data-ph-parsed="true" class="_gis-total-stars">
+                            <div data-ph-parsed="true" class="_gis-stars-active" style="width: {{firmData.firmFlampRating}}%"></div>
+                        </div>
+                    {{/if}}
+                    <a data-ph-parsed="true" target="_blank" data-ga-invoke="_PHReviewsClick" href="{{firmData.reviews.flampReviewsLink}}" data-reg-bc-url="{{firmData.reviews.reg_bc_url}}">{{{reviewsString}}}</a>
+                </div>
+
+                {{#if firmData.firmFlampRecommendationCount}}
+                    <div data-ph-parsed="true" class="_gis-recommends">
+                        <span data-ph-parsed="true">{{{recommendationString}}}</span>
+                    </div>
+                {{/if}}
+            </div>
+            {{/if}}
+
+        </div>
+    {{/unless}}
+
+    <div data-ph-parsed="true" class="{{#if firmData._woResult}}_gis-phone-highlight-body-empty{{else}}_gis-phone-highlight-body{{/if}}">
+    {{#if todayDesc}}
+        <div data-ph-parsed="true" class="_gis-phone-highlight-section _gis-phone-highlight-work-mode {{#unless todayDesc.isOpen}} _gis-phone-highlight-close{{/unless}}">
+            {{#unless todayDesc.allTime}}
+                <a data-ph-parsed="true" data-ga-invoke="_PHScheduleClick" class="_gis-phone-highlight-expand _gis-phone-highlight-opened js_gis-phone-highlight-schedule-link" href="javascript:;">{{todayDesc.todayText}}</a>
+            {{else}}
+                <a data-ph-parsed="true" data-ga-invoke="_PHScheduleClick" class="_gis-phone-highlight-expand _gis-phone-highlight-no-active" href="javascript:;">{{todayDesc.todayText}}</a>
+            {{/unless}}
+            <div data-ph-parsed="true" class="_gis-phone-highlight-info">
+                {{todayDesc.todayState}}
+            </div>
+
+            {{#unless todayDesc.allTime}}
+                {{#if shortSchedule}}
+                    <div data-ph-parsed="true" class="_gis-phone-highlight-schedule-popup _gis-phone-highlight-simple js_gis-phone-highlight-schedule-popup">
+                        <div data-ph-parsed="true" class="_gis-phone-highlight-arr"></div>
+                        {{#each shortSchedule}}
+                            <div data-ph-parsed="true">{{this.name}} {{{this.value}}}</div>
+                        {{/each}}
+                    </div>
+                {{else}}
+                    <div data-ph-parsed="true" class="_gis-phone-highlight-schedule-popup js_gis-phone-highlight-schedule-popup">
+                        <div data-ph-parsed="true" class="_gis-phone-highlight-arr"></div>
+                        <div data-ph-parsed="true" class="_gis-phone-highlight-ico">
+                            <div data-ph-parsed="true" class="_gis-phone-highlight-working"></div> <div class="_gis-phone-highlight-break"></div>
+                        </div>
+                    </div>
+                {{/if}}
+            {{/unless}}
+        </div>
+    {{/if}}
+
+    {{#each firmData.firmContactGroups}}
+        {{! this = group }}
+        {{#if this.name}}
+            <h2>{{this.name}}</h2>
+        {{/if}}
+        {{#each this.contacts}}
+            {{! this = contact }}
+            {{#ifCond @key '==' 'email'}}
+                {{#each this}}
+                    <div data-ph-parsed="true" class="_gis-phone-highlight-section _gis-phone-highlight-{{this.type}}"><a href="mailto:{{this.link}}" data-reg-bc-url="{{this.reg_bc_url}}">{{this.link}}</a></div>
+                {{/each}}
+            {{else}}{{#ifCond @key '==' 'website'}}
+                {{#each this}}
+                    {{#ifCond this.alias '!=' @firmData.currDomain}}
+                        <div data-ph-parsed="true" class="_gis-phone-highlight-section _gis-phone-highlight-{{this.type}}">
+                            <a data-ph-parsed="true" href="{{this.link}}" target="_blank" data-reg-bc-url="{{this.reg_bc_url}}">{{this.alias}}</a>
+                        </div>
+                    {{/ifCond}}
+                {{/each}}
+            {{else}}{{#ifCond @key 'in' 'phone,fax'}}
+                {{#each this}}
+                    <div data-ph-parsed="true" class="_gis-phone-highlight-section _gis-phone-highlight-phone js_gis-phone _gis-phone-highlight-clearfix _gis-phone-show-opened">
+                        <i data-ph-parsed="true" class="_gis-icon _gis-icon-phone"></i>
+                        {{#if @firmData._woResult}}
+                            <div data-ph-parsed="true" class="_gis-phone-wrapper _gis-phone-highlight-clearfix">
+                                <a data-ph-parsed="true" href="javascript:;" class="_gis-p2d-link js_gis-p2d-link"
+                                   data-reg-bc-url="{{this.reg_bc_url}}"
+                                   data-value="{{addCountryCode this.link}}"
+                                   data-description='{{loc "__dialing_to_{number}" this.alias}}'>
+                                    <span data-ph-parsed="true">{{loc '__dial'}}</span>
+                                </a>
+                                {{#if this.comment}}
+                                    <span data-ph-parsed="true" class="_gis-p2d-link-info">{{this.comment}}</span>
+                                {{/if}}
+                                <span data-ph-parsed="true" class="_gis-p2d-error js_gis-p2d-error"></span>
+                            </div>
+                            <div data-ph-parsed="true" class="push2dial-message">
+                                <div data-ph-parsed="true" class="p2d-preloader">
+                                    <span data-ph-parsed="true" class="p2d-preloader__dots"></span>
+                                    <span data-ph-parsed="true" class="p2d-preloader__cellphone-icon"></span>
+                                </div>
+                            </div>
+                        {{else}}
+                            <div data-ph-parsed="true" class="_gis-phone-wrapper _gis-phone-highlight-clearfix">
+                                <a data-ph-parsed="true" href="javascript:;" class="_gis-p2d-link js_gis-p2d-link"
+                                   data-reg-bc-url="{{this.reg_bc_url}}"
+                                   data-value="{{addCountryCode this.link}}"
+                                   data-description='{{loc "__dialing_to_{firmName}" @firmData.firmName}}'>
+                                    <span data-ph-parsed="true">{{this.alias}}</span>
+                                </a>
+                                <div data-ph-parsed="true" class="push2dial-message">
+                                    <div data-ph-parsed="true" class="p2d-preloader">
+                                        <span data-ph-parsed="true" class="p2d-preloader__dots"></span>
+                                        <span data-ph-parsed="true" class="p2d-preloader__cellphone-icon"></span>
+                                    </div>
+                                </div>
+                                {{#if this.comment}}
+                                    <span data-ph-parsed="true" class="_gis-p2d-link-info">{{this.comment}}</span>
+                                {{/if}}
+                                <span data-ph-parsed="true" class="_gis-p2d-error js_gis-p2d-error"></span>
+                            </div>
+                        {{/if}}
+                    </div>
+                {{/each}}
+            {{else}}
+                {{#each this}}
+                    <div data-ph-parsed="true" class="_gis-phone-highlight-section _gis-phone-highlight-{{this.type}}">
+                        {{this}} {{! todo: really? }}
+                    </div>
+                {{/each}}
+            {{/ifCond}}{{/ifCond}}{{/ifCond}}
+        {{/each}}
+    {{/each}}
+    {{#if firmData.firmBigMapLink}}
+        <div data-ph-parsed="true" class="_gis-phone-highlight-section _gis-phone-highlight-moreinfo">
+            <a data-ph-parsed="true" href="{{firmData.firmBigMapLink}}" target="_blank" data-ga-invoke="_PHMoreClick" data-reg-bc-url="{{firmData.reg_bc_url}}">
+                {{#ifCond firmData.provider '==' 'gmaps'}}
+                    {{loc '__get_more_at_{source}' 'Google'}}
+                    <img style="float: right" src="data:image/png;base64,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" />
+                {{else}}
+                    {{loc '__get_more_at_{source}' '2GIS'}}
+                {{/ifCond}}
+            </a>
+        </div>
+    {{/if}}
+
+    </div>
+</div>

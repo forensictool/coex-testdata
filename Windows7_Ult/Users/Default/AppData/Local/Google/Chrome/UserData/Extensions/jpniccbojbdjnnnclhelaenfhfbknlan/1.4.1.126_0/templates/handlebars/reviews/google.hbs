@@ -1,0 +1,9 @@
+<div class="ext-comments">
+    <h1 class="title">{{loc '__reviews'}}</h1>
+    {{> reviews_list}}
+    {{#if showMoreCommentsButton}}
+        <div class="more-comments">
+            <a href="{{data.reviews.flampReviewsLink}}">{{loc '__read_all_reviews_{count}' data.reviews.flampReviewsCount}}</a>
+        </div>
+    {{/if}}
+</div>

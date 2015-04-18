@@ -1,0 +1,192 @@
+<div class="widget" id="_dgext-toolbar-popup-root">
+    <a class="w-close js-widget-close" href="javascript:;"></a>
+
+    <div class="header">
+        <h1 class="title">{{data.firmName}}</h1>
+        {{#ifAny data.firmFlampRating data.reviews data.firmFlampRecommendationCount}}
+            <div class="rating">
+                <div class="comments">
+                    {{#if data.firmFlampRating}}
+                        <div class="total-stars">
+                            <div class="stars-active" style="width: {{data.firmFlampRating}}%"></div>
+                        </div>
+                    {{/if}}
+                    {{#if data.reviews}}
+                        <a target="_blank" data-ga-invoke="_TBReviewsClick"
+                           data-reg-bc-url="{{data.reviews.reg_bc_url}}"
+                           href="{{data.reviews.flampReviewsLink}}">{{{reviewsString}}}</a>
+                    {{/if}}
+                </div>
+                {{#if data.firmFlampRecommendationCount}}
+                    <div class="recommends">
+                        <span>{{{recommendationString}}}</span>
+                    </div>
+                {{/if}}
+            </div>
+        {{/ifAny}}
+    </div>
+    <div class="scroll-wrapper">
+        <div class="scroll-pane">
+            <div class="scroll-track">
+                <div class='scroll-bar'></div>
+            </div>
+
+            <div class="body">
+                {{#if data.firmAddress}}
+                    <div class="section location">
+                        <div class="address-wrap">
+                            <a class="address" target="_blank" data-ga-invoke="_TBAddressClick"
+                               data-reg-bc-url="{{data.reg_bc_url}}"
+                               href="{{data.firmBigMapLink}}">{{data.firmAddress}}</a>
+                            {{#if data.firmDistance}}
+                                <a href="javascript:;" class="dist-link js-tooltip"
+                                   {{#if data.myAddressName}}title="{{loc '__distance_from_your_{address}' data.myAddressName}}"
+                                   {{else}}title="{{loc '__distance_from_your_address'}}"{{/if}}>
+                                    {{#if data.firmDistanceMiles}}
+                                        <span class="distance">{{distanceFormat data.firmDistanceMiles}} {{loc '__mi'}}</span>
+                                    {{else}}
+                                        <span class="distance">{{distanceFormat data.firmDistance}} {{loc '__km'}}</span>
+                                    {{/if}}
+                                </a>
+                            {{/if}}
+                            <div class="clearfix"></div>
+                        </div>
+                        {{#if data.firmAddressDescription}}
+                            <span class="address-exact">{{data.firmAddressDescription}}</span>
+                        {{/if}}
+                        {{#ifCond data.firmFilialsCount '>' 1}}
+                            <a target="_blank" class="more-branch" data-ga-invoke="_TBBranchesClick"
+                               href="{{data.firmFilialsLink}}">{{{filialsString}}}</a>
+                        {{/ifCond}}
+                        {{#if data.firmTransToLink}}
+                            <div>
+                                <div class="route">
+                                    <a target="_blank" data-ga-invoke="_TBTransToClick" class="here"
+                                       href="{{data.firmTransToLink}}">{{loc '__route_here'}}<b><i></i></b></a>
+                                    <a target="_blank" data-ga-invoke="_TBTransFromClick" class="out-here"
+                                       href="{{data.firmTransFromLink}}">{{loc '__from_here'}}<b><i></i></b></a>
+                                </div>
+                            </div>
+                        {{/if}}
+                    </div>
+                {{/if}}
+
+                {{#if todayDesc}}
+                    <div class="section work-mode {{#unless todayDesc.isOpen}} close{{/unless}}">
+                        {{#if todayDesc.allTime}}
+                            <a class="expand no-active" href="javascript:;">{{todayDesc.todayText}}</a>
+                        {{else}}
+                            <a class="expand opened js-schedule-link" href="javascript:;">{{todayDesc.todayText}}</a>
+                        {{/if}}
+                        <div class="info">
+                            {{todayDesc.todayState}}
+                        </div>
+
+                        {{#unless todayDesc.allTime}}
+                            {{#if shortSchedule}}
+                                <div class="schedule-popup simple js-schedule-popup">
+                                    <div class="arr"></div>
+                                    {{#each shortSchedule}}
+                                        <div>{{this.name}} {{{this.value}}}</div>
+                                    {{/each}}
+                                </div>
+                            {{else}}
+                                <div class="schedule-popup js-schedule-popup">
+                                    <div class="arr"></div>
+                                    <div class="ico">
+                                        <div class="working"></div>
+                                        <div class="break"></div>
+                                    </div>
+                                </div>
+                            {{/if}}
+                        {{/unless}}
+                    </div>
+                {{/if}}
+
+                {{#if data.firmAddress}}
+                    {{#if data.firmStaticMapSrc}}
+                        <a href="{{data.firmBigMapLink}}" data-ga-invoke="_TBMapClick" class="map">
+                            <img src="{{data.firmStaticMapSrc}}" alt="" />
+                        </a>
+                    {{else}}
+                        {{#if data.targetPoint}}
+                            <div id="_jsapi-widget-map" class="map jsapi-widget-map"></div>
+                        {{/if}}
+                    {{/if}}
+                {{/if}}
+
+                {{#each data.firmContactGroups}}
+                {{! this = group }}
+                    {{#if this.name}}
+                        <h2>{{this.name}}</h2>
+                    {{/if}}
+                    {{#each this.contacts}}
+                        {{#ifCond @key '==' 'email'}}
+                            {{#each this}}
+                            {{! this = contact}}
+                                <div class="section contact {{this.type}}"><a href="mailto:{{this.link}}"
+                                                                              data-reg-bc-url="{{this.reg_bc_url}}">{{this.link}}</a>
+                                </div>
+                            {{/each}}
+                        {{else}}
+                            {{#ifCond @key 'in' 'phone,fax'}}
+                                {{#each this}}
+                                {{! this = contact}}
+                                    <div class="_gis-phone-highlight-section _gis-phone-highlight-phone  js_gis-phone _gis-phone-show-opened clearfix">
+                                        <i class="icon icon-phone js_gis-phone-highlight-phone-icon"></i>
+
+                                        <div class="_gis-phone-wrapper clearfix">
+                                            <a onclick="return false;" href="javascript:;"
+                                               class="_gis-p2d-link js_gis-p2d-link"
+                                               data-value="{{addCountryCode this.link}}"
+                                               data-description='{{loc "__dialing_to_{firmName}" @firmName}}'
+                                               data-reg-bc-url="{{this.reg_bc_url}}"
+                                                    >
+                                                <span data-ph-parsed="true">{{this.alias}}</span>
+                                            </a>
+
+                                            <div class="push2dial-message">
+                                                <div class="p2d-preloader">
+                                                    <span class="p2d-preloader__dots"></span>
+                                                    <span class="p2d-preloader__cellphone-icon"></span>
+                                                </div>
+                                            </div>
+                                            {{#if this.comment}}
+                                                <span data-ph-parsed="true"
+                                                      class="_gis-p2d-link-info">{{this.comment}}</span>
+                                            {{/if}}
+                                            <span class="_gis-p2d-error js_gis-p2d-error"></span>
+                                        </div>
+                                    </div>
+                                {{/each}}
+                            {{else}}
+                                {{#each this}}
+                                {{! this = contact}}
+                                    <div class="section contact {{this.type}}"><span>{{this.link}}</span></div>
+                                {{/each}}
+                            {{/ifCond}}
+                        {{/ifCond}}
+                    {{/each}}
+                {{/each}}
+                {{#if data.rubricsLink}}
+                    <div class="more-org">
+                        <a target="_blank" data-ga-invoke="_TBRubricsClick"
+                           href="{{data.rubricsLink}}">{{{otherOrganizationsString}}}</a>
+                    </div>
+                {{/if}}
+            </div>
+            {{#if data.reviews}}
+                {{#if use2Gis}}
+                    {{> reviews_2gis}}
+                {{else}}
+                    {{> reviews_google}}
+                {{/if}}
+            {{/if}}
+            {{#if data.htmlAttributions}}
+                <div class="html-attributions">
+                    {{{data.htmlAttributions}}}
+                </div>
+            {{/if}}
+        </div>
+    </div>
+</div>

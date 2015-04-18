@@ -1,0 +1,52 @@
+{
+	"content_scripts": [
+		"js/content/content.js"
+	],
+	"background_scripts": [
+		"js/common/extend.js",
+		"js/common/vendor/jquery-2.1.1.min.js",
+		"js/common/jquery-noconflict.js",
+		"js/common/i18n.js",
+		"js/common/time-service-client.js",
+		"js/common/utils.js",
+		"js/background/classes/result-collection.js",
+		"js/background/classes/geolocation-wrapper.js",
+		"js/background/classes/geo-location.js",
+		"js/background/classes/locale-detector.js",
+		"js/background/classes/time-service.js",
+		"js/common/vendor/date.format.js",
+		"js/common/vendor/date.parse.js",
+		"js/common/vendor/md5.js",
+		"js/background/services/push-to-dial-service.js",
+		"js/background/services/google-analytics-service.js",
+		"js/common/errors.js",
+		"js/common/timeout-queue.js",
+		"js/background/services/datasource/google-places.js",
+		"js/background/services/datasource/dgis.js",
+		"js/background/classes/catalog.js",
+		"js/background/classes/popup-controller.js",
+		"js/common/config.js",
+		"js/background/init.js",
+		"js/background/main.js"
+	],
+	"description": "Contacts, reviews and click to call from any web page.",
+	"creator": "2GIS",
+	"homepage_url": "http://2gis.ru",
+	"version": "1.4.1.126",
+	"browser_button": {
+		"caption": "2GIS for Browsers",
+		"tooltipText": "2GIS for Browsers",
+		"icon": "icons/button.png"
+	},
+	"name": "2GIS for Browsers",
+	"default_locale": "en",
+	"update_path_url": "https://apps.2gis.ru/upload/apps/",
+	"id": "aakehmgdpdjfkdhmaipblemddcecpejp",
+	"update_url": "https://apps.2gis.ru/upload/apps/update_chrome.xml",
+	"locales": [
+		"cs",
+		"en",
+		"es",
+		"ru"
+	]
+}
