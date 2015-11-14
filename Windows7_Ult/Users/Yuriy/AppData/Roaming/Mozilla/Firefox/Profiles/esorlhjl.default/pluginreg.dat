@@ -1,0 +1,27 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version|0.17|$
+Arch|x86-msvc|$
+
+[PLUGINS]
+npGoogleUpdate3.dll|$
+C:\Program Files (x86)\Google\Update\1.3.28.15\npGoogleUpdate3.dll|$
+1.3.28.15|$
+1444034240328|0|0|0|$
+Google Update|$
+Google Update|$
+2
+0|application/x-vnd.google.update3webcontrol.3|||$
+1|application/x-vnd.google.oneclickctrl.9|||$
+NPSPWRAP.DLL|$
+C:\Program Files (x86)\Microsoft Office\root\Office16\NPSPWRAP.DLL|$
+16.0.6001.1034|$
+1446286540025|0|0|0|$
+The plugin allows you to have a better experience with Microsoft SharePoint|$
+Microsoft Office 2016|$
+2
+0|application/x-sharepoint|SharePoint Plug-in for Firefox||$
+1|application/x-sharepoint-uc|||$
+
+[INVALID]
